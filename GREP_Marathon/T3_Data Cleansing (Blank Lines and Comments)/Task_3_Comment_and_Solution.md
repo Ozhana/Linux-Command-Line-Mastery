@@ -1,4 +1,10 @@
-### Difficulty Degree: 2/5
+# INSTRUCTIONS IN ENGLISH
+
+
+# GOREVLENDIRME TURKCE
+| English Instructions | Türkçe Talimatlar |
+| :--- | :--- |
+| *### Difficulty Degree: 2/5
 
 Situation: You are working on an Arduino project or have a configuration file.
 The file is very crowded; dozens of empty lines and # or // There are comment lines starting with.
@@ -15,9 +21,11 @@ Then, both the blank lines and // starting with comment lines just press the "cl
 
 ---
 
-Submit Billi: * Empty line regex'te ^$ (line head and line end adjacent) is performed ifade.
+### Submit Billi: * Empty line regex'te ^$ (line head and line end adjacent) is performed ifade.
 
 For the process of "eliminating" or "not including" something -v let me remind you that you should use (invert-match).
 
 // characters may require an escape character on some systems,
-but they are in quotes when searching in plain text "//" it will do its job.
+but they are in quotes when searching in plain text "//" it will do its job. | **1. Adım:** GitHub üzerinde yeni bir depo oluşturun. |
+| **Step 2:** Add a README file to your project. | **2. Adım:** Projenize bir README dosyası ekleyin. |
+| **Step 3:** Commit your changes regularly. | **3. Adım:** Değişikliklerinizi düzenli olarak kaydedin (commit). |
