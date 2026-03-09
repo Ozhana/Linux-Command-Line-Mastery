@@ -1,4 +1,4 @@
-# INSTRUCTIONS IN ENGLISH -- GOREVLENDIRME TURKCE
+# INSTRUCTIONS IN ENGLISH ------ GOREVLENDIRME TURKCE
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
 | *** ### Difficulty Degree:** 2/5 | *** ### Zorluk duzeyi:*** 2/5|
