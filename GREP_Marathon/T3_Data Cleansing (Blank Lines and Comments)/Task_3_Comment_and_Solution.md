@@ -9,8 +9,7 @@
 | **Step 1:** Prepare Data | | **Adım 1:** Veriyi Hazırla |
 | This is Python code for you project.ino it will give you a file called, full of spaces and comments. |  | Bu Python kodu sana project.ino adında, içi boşluklar ve yorumlarla dolu bir dosya verecek.|
 | **Step 2:** Prepare Data | **Adım 2:** Görev |
-| 1. project.ino in his file empty lines one that won't show grep type command.<br>
-2. Then, both the blank lines and // starting with comment lines <br> just press the "clean code" on the screen by eliminating it. |
+| 1. project.ino in his file empty lines one that won't show grep type command.<br>2. Then, both the blank lines and // starting with comment lines <br> just press the "clean code" on the screen by eliminating it. | 1. project.ino dosyasındaki boş satırları göstermeyecek bir grep komutu yaz.<br>2. Ardından, hem boş satırları hem de // ile başlayan yorum satırlarını eleyerek sadece "temiz kodu" ekrana bas.
 
 
 
