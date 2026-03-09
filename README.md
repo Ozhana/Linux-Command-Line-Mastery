@@ -3,7 +3,7 @@ Welcome to my personal training laboratory for Linux Command Line tools. This re
 
 As a Mathematics Teacher and Data Analyst, I believe the best way to learn is by doing. That's why every challenge here comes with a custom Python script that generates a unique, realistic dataset for you to analyze.
 
-🚀 The Learning Philosophy
+## 🚀 The Learning Philosophy
 Instead of just reading manual pages, this project focuses on:
 
 Real-World Scenarios: Cybersecurity log analysis, Robotics telemetry, Financial auditing, and System administration.
@@ -12,7 +12,7 @@ Data Generation: Using Python to create "dirty" data (logs with errors, outliers
 
 Pipeline Thinking: Connecting multiple commands using pipes (|) to build complex data processing workflows.
 
-📂 Repository Structure
+## 📂 Repository Structure
 The curriculum is organized into levels:
 
 1. The Grep Marathon (Tasks 01-20) 🔍
