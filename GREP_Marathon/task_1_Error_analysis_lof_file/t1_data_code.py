@@ -9,4 +9,4 @@ with open("system.log", "w") as f:
         msg = random.choice(messages)
         f.write(f"2026-03-06 14:{random.randint(10,59)} - {level} - {msg}\n")
 
-print("system.log dosyası oluşturuldu.")
+print("system.log FILE CREATED.")
