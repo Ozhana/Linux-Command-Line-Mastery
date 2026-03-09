@@ -6,14 +6,13 @@
 | :--- | :--- |
 | *** ### Difficulty Degree:** 2/5 | *** ### Zorluk duzeyi:*** 2/5|
 | Situation: You are working on an Arduino project or have a configuration file. The file is very crowded; dozens of empty lines and # or // There are comment lines starting with. You need to clear this "noise" to see the real code (i.e. useful data). | Durum: Bir Arduino projesi üzerinde çalışıyorsun veya bir konfigürasyon dosyan var. kalabalık; içinde onlarca boş satır ve # veya // ile başlayan yorum satırları var. Gerçek kodu (yani işe yarar veriyi) görmek için bu "gürültüyü" temizlemen gerekiyor. |
-| **Step 1:** Prepare Data
-This is Python code for you project.ino it will give you a file called, full of spaces and comments. |  | **Adım 1:** Veriyi Hazırla
-Bu Python kodu sana project.ino adında, içi boşluklar ve yorumlarla dolu bir dosya verecek.|
-|  |  |
+| **Step 1:** Prepare Data | | **Adım 1:** Veriyi Hazırla |
+| This is Python code for you project.ino it will give you a file called, full of spaces and comments. |  | Bu Python kodu sana project.ino adında, içi boşluklar ve yorumlarla dolu bir dosya verecek.|
+| **Step 1:** Prepare Data | **Adım 2:** Görev |
+| 1. project.ino in his file empty lines one that won't show grep type command.
 
 
-### Step 1: Prepare Data
-This is Python code for you project.ino it will give you a file called, full of spaces and comments.
+
 
 ### Step 2: Task
 ---
