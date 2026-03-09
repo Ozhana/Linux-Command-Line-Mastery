@@ -1,0 +1,1501 @@
+Name,City,Department,Grade
+Ayse,Ankara,COMPUTER Science,43
+Ece,ANKARA,Biology,88
+Mehmet,Ankara,Mathematics,76
+Mehmet,Ankara,COMPUTER Science,65
+Can,Istanbul,COMPUTER Science,66
+Ayse,Bursa,Physics,90
+Can,Bursa,COMPUTER Science,83
+Zeynep,Bursa,Computer Eng,63
+Ece,ankara,COMPUTER Science,48
+Zeynep,ANKARA,Mathematics,58
+Mehmet,ankara,Computer Eng,76
+Ece,ankara,Computer Eng,88
+Can,ANKARA,COMPUTER Science,70
+Fatma,Bursa,Physics,98
+Zeynep,Bursa,COMPUTER Science,76
+Can,Bursa,Mathematics,42
+Fatma,Bursa,Computer Eng,82
+Mehmet,Izmir,Mathematics,87
+Ayse,Istanbul,Computer Eng,43
+Fatma,ankara,Mathematics,71
+Ahmet,Izmir,COMPUTER Science,42
+Can,ANKARA,Biology,87
+Can,ankara,Physics,88
+Ahmet,Izmir,Biology,76
+Ahmet,ANKARA,Biology,84
+Ece,Bursa,Mathematics,80
+Can,Istanbul,COMPUTER Science,47
+Zeynep,Izmir,Physics,99
+Ahmet,Bursa,COMPUTER Science,58
+Ece,Izmir,COMPUTER Science,95
+Mehmet,ankara,Physics,64
+Ece,Ankara,COMPUTER Science,89
+Ece,Ankara,Biology,72
+Ahmet,Istanbul,Physics,77
+Fatma,Izmir,COMPUTER Science,44
+Ece,Istanbul,Computer Eng,94
+Ece,Bursa,Physics,43
+Fatma,Istanbul,COMPUTER Science,47
+Ece,ankara,COMPUTER Science,86
+Can,Istanbul,Physics,44
+Zeynep,Istanbul,Physics,58
+Mehmet,Bursa,COMPUTER Science,66
+Ayse,Istanbul,Computer Eng,66
+Fatma,Izmir,COMPUTER Science,82
+Ayse,Bursa,Computer Eng,98
+Mehmet,ANKARA,Mathematics,57
+Zeynep,Ankara,Biology,55
+Mehmet,Izmir,Physics,63
+Zeynep,Bursa,COMPUTER Science,43
+Ayse,ankara,Mathematics,77
+Zeynep,ANKARA,Biology,41
+Zeynep,Istanbul,Physics,78
+Mehmet,ANKARA,Computer Eng,66
+Can,Istanbul,Biology,84
+Fatma,Izmir,Mathematics,44
+Can,ANKARA,Physics,73
+Fatma,Izmir,Physics,57
+Ayse,Ankara,Physics,60
+Ahmet,Izmir,COMPUTER Science,62
+Zeynep,ANKARA,Physics,75
+Ayse,Izmir,Physics,99
+Ece,Istanbul,Physics,61
+Zeynep,ANKARA,Mathematics,100
+Ece,ANKARA,Mathematics,69
+Can,Ankara,Biology,79
+Fatma,ANKARA,Physics,78
+Zeynep,Istanbul,Mathematics,94
+Ahmet,Izmir,Computer Eng,63
+Can,Istanbul,COMPUTER Science,74
+Can,Ankara,Biology,50
+Mehmet,Ankara,Computer Eng,53
+Ayse,Ankara,Mathematics,87
+Fatma,ankara,COMPUTER Science,69
+Ahmet,Ankara,Computer Eng,78
+Fatma,Izmir,COMPUTER Science,62
+Can,Bursa,Biology,78
+Ece,Istanbul,Biology,99
+Ahmet,ankara,Physics,94
+Ahmet,Istanbul,Mathematics,96
+Mehmet,Izmir,Biology,84
+Can,Bursa,Physics,88
+Zeynep,ankara,Computer Eng,76
+Fatma,Ankara,Computer Eng,96
+Ayse,ANKARA,COMPUTER Science,84
+Zeynep,Ankara,Biology,77
+Fatma,ankara,Biology,80
+Ayse,Bursa,Biology,58
+Ayse,Ankara,Mathematics,40
+Can,Istanbul,Computer Eng,86
+Ahmet,Bursa,Biology,59
+Can,Ankara,COMPUTER Science,55
+Can,Ankara,Computer Eng,86
+Fatma,ANKARA,Physics,95
+Ahmet,ANKARA,Mathematics,40
+Fatma,Bursa,Computer Eng,98
+Ece,Ankara,Computer Eng,64
+Fatma,Ankara,Mathematics,69
+Mehmet,ankara,Biology,96
+Zeynep,Izmir,Biology,80
+Ayse,Bursa,Biology,67
+Can,Izmir,Biology,99
+Zeynep,ankara,COMPUTER Science,88
+Fatma,ankara,Physics,54
+Ayse,Ankara,Physics,40
+Fatma,Ankara,Computer Eng,71
+Zeynep,Izmir,COMPUTER Science,71
+Ayse,Izmir,Physics,71
+Ece,Bursa,Biology,61
+Zeynep,Izmir,Computer Eng,71
+Fatma,ANKARA,Computer Eng,100
+Fatma,Bursa,Biology,61
+Ayse,Izmir,COMPUTER Science,62
+Fatma,ankara,Mathematics,56
+Ayse,Izmir,Biology,43
+Mehmet,Bursa,Physics,97
+Ece,Bursa,Mathematics,91
+Fatma,ankara,Computer Eng,41
+Ece,ANKARA,Physics,67
+Ece,ankara,Computer Eng,83
+Zeynep,Bursa,Computer Eng,69
+Ece,Istanbul,COMPUTER Science,71
+Ahmet,Ankara,Physics,41
+Zeynep,Bursa,COMPUTER Science,64
+Can,Ankara,Physics,87
+Ahmet,ANKARA,COMPUTER Science,55
+Mehmet,Izmir,COMPUTER Science,72
+Ayse,ankara,Biology,77
+Ahmet,ANKARA,Computer Eng,71
+Ayse,Izmir,Physics,47
+Can,Ankara,Physics,43
+Ayse,Bursa,Physics,78
+Ayse,Istanbul,Mathematics,50
+Can,ANKARA,Biology,61
+Can,Bursa,Computer Eng,67
+Mehmet,Ankara,Physics,54
+Fatma,ANKARA,Mathematics,66
+Can,Bursa,Physics,100
+Fatma,Bursa,Biology,81
+Ece,Istanbul,Physics,81
+Ece,Ankara,Physics,78
+Fatma,ankara,Physics,68
+Fatma,ankara,Mathematics,45
+Fatma,ANKARA,Computer Eng,50
+Can,Ankara,Biology,94
+Mehmet,Izmir,Biology,45
+Ece,Bursa,COMPUTER Science,72
+Can,Ankara,Physics,73
+Zeynep,Istanbul,Computer Eng,68
+Ayse,Izmir,Computer Eng,76
+Ece,ankara,Computer Eng,68
+Ayse,Bursa,Biology,66
+Ece,Bursa,Computer Eng,92
+Zeynep,ANKARA,Mathematics,100
+Ayse,Istanbul,Biology,89
+Ece,Istanbul,Biology,81
+Ahmet,Izmir,Physics,69
+Ahmet,Istanbul,Mathematics,83
+Ayse,Bursa,Computer Eng,47
+Ece,ANKARA,Biology,98
+Ahmet,Bursa,Biology,66
+Ece,Istanbul,Computer Eng,43
+Ahmet,Istanbul,Physics,70
+Fatma,ANKARA,Biology,69
+Zeynep,Ankara,Biology,43
+Ece,ANKARA,COMPUTER Science,71
+Mehmet,Ankara,Physics,93
+Ece,ANKARA,Biology,78
+Ece,ANKARA,Computer Eng,53
+Ayse,Bursa,Physics,89
+Fatma,ankara,Mathematics,93
+Mehmet,ANKARA,Mathematics,53
+Ayse,Ankara,Biology,93
+Ahmet,Bursa,COMPUTER Science,92
+Can,Istanbul,Computer Eng,98
+Fatma,ankara,COMPUTER Science,85
+Fatma,Izmir,Biology,66
+Fatma,ANKARA,COMPUTER Science,90
+Mehmet,Istanbul,Mathematics,80
+Mehmet,Ankara,COMPUTER Science,80
+Ahmet,Istanbul,Biology,72
+Ece,Izmir,COMPUTER Science,65
+Ece,Bursa,COMPUTER Science,100
+Ece,Izmir,Biology,65
+Can,Istanbul,Physics,96
+Ece,Istanbul,Mathematics,98
+Ayse,ANKARA,Physics,70
+Ayse,Bursa,Mathematics,60
+Zeynep,ankara,Physics,48
+Ahmet,Izmir,Mathematics,76
+Ece,Izmir,Mathematics,86
+Zeynep,Istanbul,COMPUTER Science,99
+Zeynep,Ankara,COMPUTER Science,66
+Ahmet,Ankara,COMPUTER Science,59
+Ece,Izmir,Biology,80
+Ahmet,Istanbul,COMPUTER Science,92
+Fatma,ANKARA,Biology,65
+Ayse,Istanbul,Mathematics,47
+Ece,Bursa,Computer Eng,91
+Fatma,Bursa,Physics,98
+Fatma,Bursa,Biology,59
+Mehmet,Ankara,Physics,99
+Ece,Ankara,Mathematics,82
+Ayse,Izmir,Computer Eng,59
+Can,ANKARA,COMPUTER Science,62
+Can,Ankara,Mathematics,41
+Ece,Izmir,Computer Eng,71
+Ece,ANKARA,Mathematics,65
+Ece,ankara,Mathematics,50
+Ece,Ankara,Physics,66
+Fatma,Bursa,Mathematics,67
+Can,Izmir,Computer Eng,55
+Fatma,Ankara,Biology,41
+Zeynep,Bursa,Biology,100
+Can,Bursa,Computer Eng,58
+Ahmet,Ankara,Mathematics,71
+Can,ANKARA,Computer Eng,55
+Can,ANKARA,COMPUTER Science,100
+Fatma,Istanbul,Physics,57
+Can,ankara,Physics,64
+Fatma,ankara,Mathematics,69
+Zeynep,Ankara,Mathematics,52
+Ayse,Istanbul,Biology,49
+Fatma,ankara,Mathematics,54
+Can,Ankara,Physics,88
+Fatma,Ankara,COMPUTER Science,90
+Ece,ANKARA,Computer Eng,46
+Ece,Bursa,Biology,70
+Ayse,Izmir,Physics,81
+Ahmet,Izmir,Mathematics,74
+Fatma,Bursa,COMPUTER Science,74
+Ece,Istanbul,Biology,84
+Zeynep,Ankara,Biology,92
+Mehmet,Bursa,COMPUTER Science,100
+Zeynep,Ankara,COMPUTER Science,68
+Zeynep,ankara,Mathematics,94
+Ahmet,Bursa,COMPUTER Science,74
+Mehmet,Istanbul,Computer Eng,79
+Ayse,ANKARA,Mathematics,59
+Ece,Ankara,Mathematics,81
+Ayse,Bursa,Physics,49
+Zeynep,ankara,Computer Eng,84
+Ayse,Bursa,Mathematics,71
+Zeynep,ankara,Mathematics,46
+Can,Bursa,COMPUTER Science,59
+Ece,Istanbul,Biology,62
+Can,ANKARA,Physics,83
+Can,ankara,Biology,84
+Ayse,ANKARA,Computer Eng,80
+Zeynep,ankara,Mathematics,42
+Can,Izmir,COMPUTER Science,55
+Ece,Bursa,Mathematics,62
+Fatma,Istanbul,Computer Eng,50
+Ece,Bursa,COMPUTER Science,62
+Fatma,Bursa,Physics,54
+Can,Izmir,Mathematics,95
+Ayse,Istanbul,Mathematics,58
+Ece,Bursa,Computer Eng,86
+Can,Izmir,COMPUTER Science,90
+Ayse,Istanbul,Biology,76
+Mehmet,Bursa,Biology,80
+Can,Izmir,Biology,52
+Ayse,Istanbul,Physics,88
+Ahmet,Bursa,COMPUTER Science,86
+Fatma,Ankara,Mathematics,64
+Ayse,ANKARA,Computer Eng,41
+Zeynep,Ankara,Computer Eng,68
+Mehmet,Bursa,COMPUTER Science,73
+Mehmet,Ankara,Mathematics,57
+Ahmet,ANKARA,COMPUTER Science,89
+Can,Bursa,Biology,69
+Mehmet,Izmir,Physics,49
+Mehmet,Istanbul,Computer Eng,61
+Ece,ankara,COMPUTER Science,68
+Ayse,Izmir,Computer Eng,40
+Ayse,Izmir,Biology,43
+Ahmet,Istanbul,Mathematics,68
+Mehmet,Istanbul,COMPUTER Science,64
+Ayse,ankara,Mathematics,78
+Ayse,ANKARA,Computer Eng,62
+Ayse,ankara,Mathematics,60
+Fatma,Istanbul,Physics,70
+Ayse,Istanbul,Mathematics,93
+Can,Bursa,Biology,53
+Ece,Izmir,Computer Eng,80
+Can,Izmir,Biology,49
+Fatma,Bursa,COMPUTER Science,62
+Ayse,ANKARA,Computer Eng,58
+Can,Ankara,COMPUTER Science,65
+Can,Ankara,Biology,66
+Ahmet,Istanbul,Computer Eng,65
+Ece,Ankara,Computer Eng,96
+Mehmet,ankara,Physics,74
+Mehmet,Ankara,COMPUTER Science,85
+Zeynep,ANKARA,Biology,95
+Ayse,Izmir,Mathematics,43
+Mehmet,Izmir,COMPUTER Science,74
+Fatma,Istanbul,Biology,76
+Mehmet,Istanbul,Computer Eng,52
+Ece,ANKARA,Physics,55
+Ece,ANKARA,Mathematics,82
+Ahmet,Bursa,Mathematics,95
+Mehmet,ANKARA,Computer Eng,71
+Mehmet,Istanbul,COMPUTER Science,53
+Fatma,Bursa,Computer Eng,57
+Fatma,Izmir,Physics,82
+Ahmet,ankara,Biology,66
+Can,Izmir,Biology,57
+Zeynep,Izmir,Physics,81
+Can,Bursa,Mathematics,80
+Fatma,ANKARA,Biology,52
+Ahmet,Ankara,Mathematics,64
+Mehmet,Bursa,Mathematics,65
+Ahmet,Ankara,Computer Eng,46
+Zeynep,Ankara,Physics,66
+Fatma,Istanbul,Physics,59
+Zeynep,Bursa,COMPUTER Science,61
+Ece,ANKARA,Physics,93
+Zeynep,ankara,Physics,40
+Ece,ANKARA,Mathematics,99
+Ayse,ANKARA,Computer Eng,87
+Ahmet,Ankara,Mathematics,67
+Can,ankara,COMPUTER Science,95
+Fatma,Istanbul,Biology,41
+Fatma,Izmir,Physics,50
+Can,ankara,Mathematics,100
+Ece,Izmir,Computer Eng,52
+Ayse,Ankara,Computer Eng,59
+Fatma,ankara,Biology,76
+Ahmet,Bursa,COMPUTER Science,65
+Ahmet,Istanbul,Mathematics,58
+Fatma,Izmir,Physics,44
+Mehmet,Istanbul,Biology,90
+Ece,ankara,COMPUTER Science,87
+Can,Istanbul,Mathematics,94
+Fatma,ANKARA,Physics,93
+Mehmet,Bursa,COMPUTER Science,67
+Ayse,ANKARA,Computer Eng,44
+Can,Bursa,Physics,82
+Ahmet,ANKARA,Computer Eng,90
+Can,ANKARA,Biology,78
+Ahmet,ANKARA,Physics,55
+Ece,Istanbul,COMPUTER Science,84
+Ece,Bursa,COMPUTER Science,64
+Zeynep,Izmir,Biology,84
+Ayse,ankara,Physics,71
+Mehmet,ANKARA,Biology,70
+Zeynep,ankara,COMPUTER Science,97
+Can,Istanbul,Computer Eng,96
+Ahmet,ANKARA,Computer Eng,81
+Ece,ANKARA,Physics,82
+Fatma,Bursa,Mathematics,84
+Mehmet,ankara,Biology,58
+Ayse,ankara,Mathematics,57
+Ahmet,Bursa,Biology,58
+Ahmet,Ankara,Physics,84
+Ayse,Bursa,COMPUTER Science,94
+Ece,Istanbul,Computer Eng,46
+Zeynep,Izmir,Computer Eng,59
+Ayse,ANKARA,Physics,72
+Zeynep,Ankara,Mathematics,58
+Can,Bursa,Computer Eng,54
+Ahmet,ankara,Physics,52
+Ayse,Bursa,COMPUTER Science,71
+Can,Izmir,Computer Eng,88
+Fatma,Izmir,COMPUTER Science,90
+Zeynep,Istanbul,Biology,45
+Fatma,ankara,Computer Eng,94
+Can,Bursa,COMPUTER Science,69
+Zeynep,Bursa,Physics,88
+Can,ankara,Physics,66
+Mehmet,Istanbul,Computer Eng,83
+Mehmet,ANKARA,COMPUTER Science,90
+Can,Bursa,Computer Eng,76
+Mehmet,ANKARA,Biology,80
+Ayse,ankara,Physics,96
+Mehmet,ANKARA,Mathematics,41
+Ece,Izmir,Physics,54
+Fatma,Bursa,Mathematics,98
+Ece,Bursa,COMPUTER Science,90
+Fatma,Istanbul,Physics,72
+Zeynep,Istanbul,Biology,66
+Ayse,Bursa,Physics,87
+Can,Istanbul,Mathematics,77
+Fatma,ankara,Computer Eng,43
+Ayse,Izmir,Biology,71
+Ayse,Bursa,Biology,70
+Ayse,Bursa,COMPUTER Science,82
+Fatma,Istanbul,Mathematics,67
+Zeynep,Izmir,Computer Eng,62
+Fatma,Ankara,Mathematics,94
+Ahmet,ANKARA,Biology,100
+Zeynep,Istanbul,Physics,60
+Ayse,ankara,Physics,100
+Zeynep,Izmir,Computer Eng,89
+Ayse,Ankara,Physics,54
+Zeynep,ANKARA,Computer Eng,64
+Ece,ankara,Computer Eng,66
+Mehmet,ANKARA,Biology,68
+Can,Izmir,COMPUTER Science,90
+Ece,ankara,COMPUTER Science,76
+Can,Ankara,Physics,79
+Zeynep,Izmir,Biology,51
+Zeynep,Izmir,Biology,78
+Mehmet,Ankara,Biology,53
+Ayse,ANKARA,Physics,96
+Mehmet,Izmir,Mathematics,74
+Ece,Bursa,Mathematics,65
+Zeynep,Istanbul,Computer Eng,40
+Ahmet,Istanbul,Biology,58
+Ahmet,Istanbul,COMPUTER Science,76
+Can,Izmir,Computer Eng,100
+Ece,ANKARA,COMPUTER Science,93
+Ahmet,Bursa,Mathematics,96
+Can,ANKARA,Computer Eng,95
+Fatma,Ankara,Physics,99
+Mehmet,Ankara,Biology,49
+Can,Ankara,Physics,41
+Zeynep,Istanbul,Mathematics,49
+Ece,Bursa,Computer Eng,67
+Fatma,ANKARA,Physics,87
+Can,Izmir,Biology,81
+Ahmet,Ankara,Mathematics,75
+Can,Izmir,Mathematics,62
+Ayse,ANKARA,Computer Eng,68
+Can,ANKARA,Physics,88
+Fatma,ankara,Mathematics,53
+Mehmet,ankara,Biology,92
+Fatma,ANKARA,Mathematics,95
+Ece,Istanbul,Biology,84
+Ayse,Ankara,COMPUTER Science,55
+Ayse,Istanbul,Mathematics,96
+Fatma,Izmir,Physics,52
+Ayse,ANKARA,Computer Eng,41
+Ece,Istanbul,Computer Eng,86
+Ayse,ANKARA,COMPUTER Science,85
+Can,Bursa,Biology,43
+Ahmet,Ankara,Computer Eng,98
+Ayse,Ankara,Biology,41
+Mehmet,Istanbul,Mathematics,99
+Mehmet,Bursa,Mathematics,91
+Can,ANKARA,Physics,81
+Mehmet,Istanbul,COMPUTER Science,42
+Ayse,Izmir,Computer Eng,79
+Ahmet,Bursa,Computer Eng,81
+Zeynep,Ankara,Mathematics,42
+Ece,Bursa,COMPUTER Science,90
+Fatma,ANKARA,COMPUTER Science,76
+Zeynep,Ankara,COMPUTER Science,94
+Ayse,Istanbul,Biology,56
+Mehmet,Istanbul,COMPUTER Science,97
+Fatma,Bursa,Mathematics,88
+Ece,Izmir,Computer Eng,89
+Mehmet,ankara,Mathematics,74
+Ayse,Bursa,Biology,96
+Mehmet,Ankara,Physics,85
+Ayse,ANKARA,COMPUTER Science,65
+Ayse,ankara,Computer Eng,97
+Ahmet,Izmir,Computer Eng,89
+Ece,Bursa,Computer Eng,98
+Ayse,ANKARA,Physics,70
+Ahmet,Istanbul,Physics,55
+Ahmet,Bursa,Physics,85
+Mehmet,Izmir,Computer Eng,73
+Ayse,Bursa,Physics,72
+Ahmet,Izmir,Computer Eng,58
+Zeynep,Bursa,Biology,54
+Ayse,Istanbul,Physics,60
+Can,Bursa,Computer Eng,85
+Ayse,Ankara,Biology,71
+Mehmet,Istanbul,Mathematics,91
+Ayse,ankara,Physics,54
+Ahmet,Izmir,COMPUTER Science,43
+Ayse,ANKARA,Biology,63
+Ahmet,Istanbul,Physics,84
+Zeynep,Izmir,Biology,72
+Can,ankara,Physics,59
+Ece,Izmir,Biology,95
+Ahmet,ankara,COMPUTER Science,84
+Fatma,ankara,Physics,50
+Ayse,Istanbul,Mathematics,65
+Ece,Bursa,Biology,80
+Ahmet,Istanbul,Computer Eng,73
+Mehmet,ANKARA,Mathematics,59
+Fatma,Istanbul,Mathematics,73
+Mehmet,Izmir,Mathematics,64
+Ahmet,Istanbul,Mathematics,93
+Can,Istanbul,Mathematics,66
+Fatma,ankara,Physics,71
+Zeynep,Izmir,Computer Eng,79
+Zeynep,Istanbul,COMPUTER Science,93
+Zeynep,Izmir,Computer Eng,79
+Zeynep,ankara,COMPUTER Science,53
+Zeynep,ANKARA,Computer Eng,91
+Ayse,ankara,Biology,76
+Zeynep,ANKARA,Mathematics,78
+Ayse,ankara,Computer Eng,48
+Zeynep,Istanbul,COMPUTER Science,88
+Ece,ANKARA,Mathematics,84
+Mehmet,ANKARA,Computer Eng,54
+Can,Ankara,Physics,92
+Ece,Istanbul,Computer Eng,86
+Can,Istanbul,Physics,50
+Ece,Bursa,Physics,40
+Ayse,ankara,Physics,64
+Zeynep,Ankara,Biology,47
+Mehmet,ankara,Computer Eng,97
+Ayse,Izmir,Biology,49
+Mehmet,ankara,Physics,51
+Ahmet,ankara,Biology,59
+Fatma,Ankara,Computer Eng,53
+Fatma,Bursa,Physics,42
+Ahmet,Istanbul,Physics,56
+Zeynep,ANKARA,COMPUTER Science,96
+Ahmet,Bursa,Biology,86
+Fatma,Bursa,Mathematics,79
+Can,ankara,Biology,52
+Zeynep,Ankara,COMPUTER Science,74
+Fatma,Bursa,COMPUTER Science,90
+Fatma,ankara,Computer Eng,51
+Ece,Ankara,Mathematics,70
+Ayse,Izmir,Biology,84
+Ahmet,ANKARA,Computer Eng,65
+Can,Ankara,Mathematics,93
+Mehmet,Istanbul,COMPUTER Science,69
+Mehmet,Bursa,Physics,91
+Mehmet,Izmir,COMPUTER Science,99
+Ayse,Istanbul,COMPUTER Science,92
+Mehmet,ANKARA,Biology,71
+Ece,Bursa,Mathematics,60
+Zeynep,Istanbul,Physics,96
+Ece,ANKARA,Mathematics,73
+Ayse,Ankara,Physics,49
+Fatma,Istanbul,Mathematics,100
+Fatma,Ankara,COMPUTER Science,60
+Ahmet,ANKARA,Computer Eng,69
+Ayse,Ankara,Computer Eng,100
+Ahmet,Ankara,COMPUTER Science,91
+Ece,Ankara,Biology,49
+Ece,ANKARA,Computer Eng,78
+Ayse,Ankara,Physics,45
+Ahmet,ankara,COMPUTER Science,80
+Mehmet,ANKARA,COMPUTER Science,40
+Ahmet,Ankara,COMPUTER Science,84
+Zeynep,ankara,Computer Eng,66
+Ece,Izmir,Computer Eng,43
+Can,Izmir,Biology,43
+Ayse,Ankara,Physics,81
+Fatma,Izmir,COMPUTER Science,95
+Zeynep,ankara,Mathematics,52
+Ayse,Izmir,Physics,76
+Zeynep,Bursa,Biology,98
+Can,ankara,Biology,85
+Ece,Ankara,Physics,54
+Zeynep,Ankara,Mathematics,81
+Ayse,ankara,Computer Eng,83
+Ayse,Bursa,COMPUTER Science,58
+Mehmet,Bursa,Mathematics,75
+Mehmet,Ankara,Physics,82
+Can,ANKARA,Mathematics,51
+Ahmet,Istanbul,Mathematics,49
+Mehmet,Izmir,Computer Eng,65
+Mehmet,Ankara,Computer Eng,83
+Ece,Bursa,Physics,93
+Zeynep,Izmir,Mathematics,100
+Can,Istanbul,Physics,74
+Ahmet,Ankara,Biology,41
+Zeynep,ANKARA,COMPUTER Science,99
+Ayse,Ankara,COMPUTER Science,58
+Ahmet,Istanbul,Biology,79
+Can,Istanbul,Physics,89
+Can,ankara,Mathematics,84
+Ayse,Ankara,Physics,46
+Ece,ankara,COMPUTER Science,69
+Ahmet,ankara,Biology,44
+Ayse,ANKARA,Computer Eng,82
+Fatma,Izmir,Physics,63
+Zeynep,ANKARA,COMPUTER Science,64
+Fatma,Ankara,Mathematics,84
+Ayse,Istanbul,COMPUTER Science,48
+Zeynep,ANKARA,Computer Eng,85
+Mehmet,Ankara,Biology,74
+Ayse,Ankara,Biology,50
+Mehmet,Bursa,Biology,92
+Can,ANKARA,Biology,77
+Mehmet,Izmir,Computer Eng,100
+Zeynep,ankara,Mathematics,51
+Ece,Izmir,Computer Eng,90
+Ayse,Bursa,COMPUTER Science,76
+Ece,Izmir,Mathematics,45
+Fatma,Istanbul,Mathematics,47
+Ahmet,ankara,Computer Eng,42
+Mehmet,ANKARA,Mathematics,61
+Ahmet,Izmir,COMPUTER Science,43
+Ayse,Izmir,Biology,45
+Fatma,Izmir,COMPUTER Science,80
+Can,Istanbul,Biology,66
+Mehmet,Izmir,Computer Eng,71
+Zeynep,Istanbul,COMPUTER Science,68
+Ahmet,Izmir,Biology,76
+Mehmet,Izmir,Biology,64
+Ayse,Istanbul,Computer Eng,85
+Mehmet,ANKARA,Computer Eng,51
+Ahmet,Izmir,Physics,72
+Fatma,ankara,Biology,95
+Ece,ankara,Mathematics,64
+Ahmet,ankara,COMPUTER Science,45
+Fatma,Ankara,Physics,88
+Ahmet,Izmir,Biology,55
+Can,Bursa,Physics,100
+Ece,ANKARA,COMPUTER Science,70
+Zeynep,Izmir,Physics,60
+Mehmet,Ankara,Biology,81
+Mehmet,Bursa,Computer Eng,71
+Fatma,Ankara,Mathematics,56
+Ahmet,Izmir,Computer Eng,76
+Ayse,Izmir,Physics,56
+Zeynep,Istanbul,Computer Eng,91
+Ece,Istanbul,Computer Eng,65
+Can,Istanbul,Biology,54
+Ahmet,ANKARA,Computer Eng,40
+Zeynep,ankara,COMPUTER Science,88
+Fatma,Izmir,Biology,67
+Ece,Istanbul,Biology,87
+Ahmet,Ankara,Biology,56
+Zeynep,Istanbul,Mathematics,96
+Mehmet,Izmir,Mathematics,95
+Ahmet,Ankara,Physics,53
+Ayse,Izmir,Mathematics,44
+Zeynep,ANKARA,Computer Eng,88
+Can,Ankara,Physics,82
+Fatma,Bursa,COMPUTER Science,71
+Ece,Istanbul,Physics,95
+Zeynep,ANKARA,COMPUTER Science,96
+Can,ANKARA,Mathematics,44
+Ahmet,Istanbul,COMPUTER Science,72
+Zeynep,Bursa,Biology,81
+Mehmet,ankara,Physics,60
+Ayse,Bursa,Mathematics,76
+Mehmet,ankara,Physics,83
+Ayse,ankara,Mathematics,84
+Mehmet,ankara,COMPUTER Science,75
+Ahmet,ankara,Computer Eng,91
+Zeynep,Bursa,COMPUTER Science,57
+Ece,ANKARA,Computer Eng,73
+Ayse,Istanbul,COMPUTER Science,74
+Ayse,Ankara,Mathematics,49
+Zeynep,Izmir,COMPUTER Science,66
+Ece,Ankara,COMPUTER Science,51
+Can,Izmir,Mathematics,70
+Fatma,ankara,COMPUTER Science,46
+Zeynep,Ankara,Mathematics,59
+Zeynep,Izmir,Mathematics,69
+Mehmet,ANKARA,Mathematics,59
+Ahmet,ankara,COMPUTER Science,59
+Ayse,Ankara,Mathematics,74
+Fatma,Istanbul,Mathematics,58
+Ece,ANKARA,Physics,85
+Mehmet,Ankara,Physics,89
+Fatma,ankara,Computer Eng,68
+Ayse,Bursa,Mathematics,91
+Ece,Bursa,Biology,96
+Can,ANKARA,Biology,49
+Zeynep,Ankara,Computer Eng,59
+Mehmet,Izmir,Computer Eng,69
+Mehmet,Ankara,Physics,95
+Fatma,Izmir,COMPUTER Science,99
+Can,Istanbul,COMPUTER Science,85
+Ayse,Ankara,Computer Eng,44
+Can,Istanbul,Physics,69
+Mehmet,Ankara,Mathematics,94
+Can,Ankara,Biology,41
+Fatma,Istanbul,Computer Eng,65
+Fatma,ankara,Physics,93
+Mehmet,Ankara,Computer Eng,67
+Ahmet,Bursa,Biology,57
+Ayse,ankara,Mathematics,66
+Ece,Istanbul,Computer Eng,91
+Mehmet,ankara,Biology,46
+Ayse,Istanbul,Computer Eng,88
+Can,Bursa,Computer Eng,57
+Can,ANKARA,Physics,80
+Ayse,Izmir,Biology,70
+Ayse,ankara,Computer Eng,76
+Mehmet,Bursa,Mathematics,80
+Can,Ankara,Mathematics,99
+Ece,Bursa,Physics,68
+Mehmet,Izmir,Physics,60
+Ayse,Istanbul,Physics,68
+Can,Ankara,Mathematics,82
+Ahmet,Bursa,Computer Eng,43
+Ece,Ankara,COMPUTER Science,71
+Zeynep,Istanbul,Physics,100
+Zeynep,Ankara,Biology,72
+Ece,ANKARA,Computer Eng,41
+Zeynep,Bursa,Biology,53
+Ece,Bursa,COMPUTER Science,54
+Ayse,ANKARA,Biology,43
+Ahmet,Istanbul,Biology,99
+Ahmet,ankara,Biology,89
+Zeynep,Istanbul,Biology,93
+Ahmet,Istanbul,Biology,55
+Mehmet,Istanbul,Mathematics,61
+Ahmet,ANKARA,COMPUTER Science,92
+Can,Izmir,Computer Eng,53
+Zeynep,ANKARA,Computer Eng,74
+Zeynep,Istanbul,Computer Eng,49
+Ahmet,Bursa,COMPUTER Science,66
+Mehmet,Istanbul,Computer Eng,62
+Fatma,Izmir,COMPUTER Science,40
+Can,ankara,Physics,79
+Zeynep,Izmir,Biology,64
+Ahmet,Izmir,Biology,60
+Can,ankara,Physics,41
+Mehmet,Istanbul,Mathematics,75
+Ahmet,Ankara,Computer Eng,91
+Ayse,Izmir,Computer Eng,90
+Ece,Bursa,Physics,97
+Zeynep,Bursa,COMPUTER Science,98
+Ahmet,Bursa,Computer Eng,52
+Ahmet,ANKARA,Physics,94
+Mehmet,Istanbul,Physics,56
+Fatma,Bursa,Computer Eng,47
+Fatma,ankara,COMPUTER Science,93
+Ayse,Istanbul,Physics,83
+Can,Istanbul,Physics,94
+Mehmet,ANKARA,Computer Eng,76
+Ece,ANKARA,Mathematics,45
+Zeynep,Izmir,COMPUTER Science,61
+Ahmet,ankara,COMPUTER Science,44
+Ece,ankara,Physics,50
+Fatma,Istanbul,Biology,83
+Ahmet,Ankara,Mathematics,95
+Ayse,Izmir,Mathematics,79
+Can,Istanbul,Mathematics,95
+Ayse,Istanbul,Computer Eng,90
+Ahmet,Izmir,COMPUTER Science,64
+Can,Ankara,COMPUTER Science,78
+Ahmet,ankara,Physics,66
+Ece,ankara,Biology,60
+Ece,ankara,COMPUTER Science,81
+Zeynep,Izmir,Physics,48
+Ece,Bursa,Physics,100
+Zeynep,Bursa,Physics,52
+Zeynep,ankara,COMPUTER Science,61
+Can,Ankara,Biology,87
+Ece,Istanbul,Mathematics,81
+Fatma,Izmir,COMPUTER Science,94
+Fatma,Izmir,Computer Eng,40
+Ahmet,Bursa,Computer Eng,43
+Ahmet,Istanbul,Biology,76
+Can,Istanbul,Biology,53
+Ayse,ANKARA,Biology,51
+Can,Istanbul,Mathematics,94
+Ece,Bursa,Biology,43
+Ahmet,Istanbul,Computer Eng,79
+Zeynep,Izmir,Mathematics,89
+Ayse,Ankara,COMPUTER Science,90
+Mehmet,Bursa,Physics,82
+Ece,Bursa,Physics,77
+Zeynep,Ankara,Computer Eng,69
+Ahmet,Izmir,Biology,56
+Can,Ankara,Physics,63
+Ayse,Ankara,Biology,59
+Ahmet,ANKARA,COMPUTER Science,93
+Ece,ANKARA,Mathematics,74
+Ayse,Izmir,Computer Eng,97
+Ece,Istanbul,COMPUTER Science,45
+Zeynep,Istanbul,Computer Eng,59
+Fatma,Izmir,Mathematics,75
+Ahmet,Bursa,Computer Eng,74
+Mehmet,ANKARA,COMPUTER Science,53
+Ece,Izmir,Physics,41
+Zeynep,Istanbul,Computer Eng,98
+Zeynep,Ankara,COMPUTER Science,73
+Ece,Istanbul,Biology,62
+Ahmet,Ankara,Computer Eng,96
+Ayse,Istanbul,Mathematics,49
+Zeynep,Istanbul,Biology,64
+Can,Ankara,Biology,40
+Fatma,Istanbul,Mathematics,93
+Mehmet,Bursa,Mathematics,99
+Zeynep,Izmir,Physics,93
+Ahmet,Istanbul,Physics,85
+Ahmet,Ankara,Computer Eng,83
+Mehmet,ankara,Mathematics,90
+Can,Izmir,Computer Eng,82
+Ece,Ankara,Physics,53
+Ece,ANKARA,Biology,98
+Ece,Istanbul,COMPUTER Science,94
+Ahmet,ANKARA,Biology,56
+Ece,ANKARA,Biology,91
+Fatma,Izmir,Mathematics,55
+Mehmet,Izmir,Mathematics,90
+Zeynep,Istanbul,Physics,74
+Can,Bursa,COMPUTER Science,65
+Ahmet,Istanbul,Computer Eng,71
+Fatma,ANKARA,COMPUTER Science,43
+Ahmet,ANKARA,COMPUTER Science,56
+Ece,Istanbul,Biology,79
+Mehmet,Izmir,COMPUTER Science,71
+Fatma,Ankara,Computer Eng,91
+Ahmet,Istanbul,COMPUTER Science,89
+Ayse,Izmir,Biology,62
+Zeynep,Istanbul,Physics,46
+Zeynep,ANKARA,COMPUTER Science,93
+Ayse,Istanbul,Biology,78
+Mehmet,Istanbul,Physics,76
+Ece,Istanbul,Mathematics,56
+Ahmet,Bursa,Physics,47
+Fatma,Izmir,Mathematics,63
+Zeynep,Istanbul,Computer Eng,98
+Fatma,ANKARA,Biology,66
+Fatma,Bursa,Biology,66
+Ece,Ankara,Mathematics,41
+Ayse,Izmir,Mathematics,100
+Fatma,Istanbul,Physics,44
+Mehmet,ANKARA,Computer Eng,78
+Fatma,ANKARA,Biology,86
+Can,ANKARA,Physics,63
+Ece,Bursa,COMPUTER Science,49
+Ayse,ANKARA,Biology,73
+Can,Istanbul,Biology,92
+Fatma,ANKARA,Computer Eng,54
+Ayse,Istanbul,Mathematics,83
+Ayse,ankara,Biology,52
+Ayse,ankara,Biology,54
+Can,ankara,Mathematics,66
+Mehmet,ankara,Mathematics,77
+Ahmet,Ankara,Computer Eng,73
+Ayse,Ankara,Physics,98
+Fatma,ANKARA,Physics,47
+Ece,ANKARA,COMPUTER Science,98
+Ayse,Bursa,Computer Eng,78
+Can,Ankara,Physics,56
+Zeynep,Ankara,Computer Eng,48
+Zeynep,Istanbul,Mathematics,76
+Ece,Bursa,COMPUTER Science,81
+Fatma,ankara,Computer Eng,59
+Ece,ANKARA,COMPUTER Science,74
+Mehmet,Ankara,Mathematics,77
+Ayse,ankara,Biology,85
+Ece,Istanbul,Computer Eng,63
+Fatma,Istanbul,Biology,66
+Ayse,ANKARA,Biology,80
+Fatma,Istanbul,Computer Eng,97
+Ece,Izmir,Physics,83
+Ahmet,ANKARA,COMPUTER Science,93
+Ayse,ankara,Computer Eng,75
+Ece,Istanbul,Computer Eng,84
+Mehmet,Istanbul,Computer Eng,91
+Ayse,ankara,Physics,100
+Mehmet,ankara,COMPUTER Science,55
+Fatma,Istanbul,Computer Eng,73
+Fatma,Izmir,Mathematics,47
+Ahmet,Ankara,Biology,81
+Mehmet,Ankara,COMPUTER Science,53
+Mehmet,Bursa,Physics,51
+Mehmet,Bursa,Biology,97
+Fatma,Bursa,Computer Eng,71
+Ahmet,Ankara,COMPUTER Science,73
+Ayse,Ankara,COMPUTER Science,81
+Zeynep,Istanbul,Physics,62
+Ayse,Bursa,Mathematics,66
+Can,ankara,Mathematics,81
+Can,ANKARA,COMPUTER Science,58
+Zeynep,ankara,Computer Eng,61
+Fatma,ANKARA,COMPUTER Science,42
+Mehmet,ANKARA,COMPUTER Science,60
+Fatma,Ankara,Physics,52
+Can,ankara,Mathematics,63
+Fatma,Ankara,Physics,91
+Ayse,Izmir,Mathematics,52
+Ece,ankara,Mathematics,80
+Ece,Ankara,COMPUTER Science,44
+Ahmet,Bursa,Physics,55
+Ahmet,Bursa,Biology,58
+Fatma,Izmir,Mathematics,63
+Ayse,ANKARA,Computer Eng,54
+Fatma,Ankara,Biology,55
+Zeynep,Ankara,Physics,79
+Ahmet,Ankara,Biology,88
+Zeynep,Ankara,COMPUTER Science,78
+Ece,ankara,Biology,42
+Ece,Izmir,Physics,92
+Can,Istanbul,Physics,92
+Ece,ankara,COMPUTER Science,98
+Ece,Bursa,COMPUTER Science,92
+Fatma,Ankara,Physics,72
+Ayse,ankara,Computer Eng,76
+Ahmet,Ankara,Biology,92
+Ece,ankara,Physics,69
+Can,Istanbul,Mathematics,99
+Fatma,Bursa,Physics,89
+Ece,ankara,COMPUTER Science,99
+Fatma,Ankara,Mathematics,52
+Ece,ankara,Physics,93
+Mehmet,Izmir,Mathematics,61
+Mehmet,ANKARA,Physics,88
+Ayse,Izmir,Computer Eng,94
+Can,ANKARA,Physics,42
+Ece,Istanbul,Biology,97
+Ahmet,Bursa,Biology,70
+Mehmet,ANKARA,COMPUTER Science,87
+Can,ANKARA,COMPUTER Science,62
+Ayse,Ankara,Computer Eng,77
+Ahmet,Bursa,Biology,59
+Ahmet,Bursa,Computer Eng,82
+Mehmet,ANKARA,Computer Eng,59
+Zeynep,ANKARA,COMPUTER Science,45
+Mehmet,Istanbul,COMPUTER Science,66
+Ece,Ankara,COMPUTER Science,81
+Can,ankara,Biology,52
+Can,ankara,Mathematics,43
+Ece,Bursa,Physics,96
+Fatma,Istanbul,Physics,73
+Can,ANKARA,Physics,69
+Fatma,Bursa,Mathematics,41
+Ayse,Bursa,Physics,52
+Ayse,ankara,Mathematics,71
+Fatma,Izmir,Mathematics,60
+Ahmet,Istanbul,COMPUTER Science,57
+Ayse,ANKARA,Biology,60
+Ahmet,Ankara,Biology,71
+Fatma,Izmir,Computer Eng,44
+Ahmet,ankara,COMPUTER Science,93
+Zeynep,Istanbul,Physics,96
+Can,Bursa,Biology,45
+Ahmet,Ankara,Mathematics,42
+Ahmet,ankara,COMPUTER Science,67
+Fatma,Ankara,Computer Eng,83
+Ahmet,Bursa,Physics,75
+Mehmet,Izmir,COMPUTER Science,99
+Ayse,ANKARA,Biology,74
+Ece,Izmir,Physics,61
+Ece,ankara,Computer Eng,91
+Fatma,ANKARA,Physics,47
+Fatma,Ankara,Physics,95
+Fatma,Istanbul,Biology,74
+Ahmet,Istanbul,Physics,54
+Can,Istanbul,Biology,86
+Can,Istanbul,Computer Eng,80
+Fatma,Izmir,Mathematics,70
+Ece,Izmir,Mathematics,60
+Can,Izmir,Physics,49
+Ayse,Istanbul,Computer Eng,49
+Can,ankara,Biology,89
+Mehmet,ankara,Mathematics,83
+Can,Istanbul,Biology,61
+Ayse,Izmir,Computer Eng,95
+Can,ANKARA,Physics,90
+Ece,ANKARA,Mathematics,56
+Ece,ankara,Physics,73
+Zeynep,Istanbul,Mathematics,67
+Mehmet,Izmir,Computer Eng,69
+Fatma,ankara,Biology,77
+Ece,Ankara,Physics,40
+Ece,ANKARA,Biology,88
+Ayse,ANKARA,Mathematics,91
+Fatma,Bursa,COMPUTER Science,40
+Ahmet,ANKARA,COMPUTER Science,61
+Ayse,Bursa,Biology,57
+Zeynep,ankara,Mathematics,95
+Fatma,ANKARA,Mathematics,48
+Ayse,ankara,Biology,42
+Ayse,Ankara,Physics,90
+Can,Bursa,COMPUTER Science,78
+Ahmet,Izmir,Computer Eng,64
+Ayse,Bursa,COMPUTER Science,72
+Ahmet,Ankara,Biology,71
+Ece,Istanbul,COMPUTER Science,40
+Ahmet,Istanbul,Computer Eng,68
+Fatma,ankara,COMPUTER Science,92
+Zeynep,Izmir,Mathematics,54
+Ayse,ankara,Biology,99
+Zeynep,Bursa,Mathematics,47
+Can,Bursa,Computer Eng,62
+Can,Izmir,COMPUTER Science,95
+Mehmet,Izmir,Physics,96
+Mehmet,ankara,Mathematics,71
+Ece,Izmir,Computer Eng,96
+Can,Bursa,Physics,93
+Ahmet,Istanbul,Mathematics,53
+Zeynep,Izmir,COMPUTER Science,94
+Zeynep,Izmir,Physics,59
+Ece,Bursa,Mathematics,60
+Mehmet,Istanbul,Mathematics,56
+Mehmet,ankara,Mathematics,80
+Ahmet,Bursa,Physics,61
+Ece,Bursa,Physics,82
+Can,Ankara,Mathematics,89
+Fatma,ankara,Computer Eng,43
+Ece,ankara,Biology,52
+Ayse,Istanbul,Computer Eng,99
+Zeynep,Bursa,Mathematics,76
+Can,Istanbul,COMPUTER Science,65
+Can,ankara,Mathematics,65
+Mehmet,Istanbul,Biology,92
+Ahmet,ankara,Physics,60
+Can,Bursa,Mathematics,77
+Ahmet,Ankara,Mathematics,48
+Zeynep,ankara,Biology,70
+Ece,Izmir,Biology,95
+Ahmet,ANKARA,Mathematics,79
+Can,Ankara,Mathematics,85
+Ece,ankara,Computer Eng,52
+Mehmet,Istanbul,Biology,48
+Ece,Ankara,Physics,78
+Mehmet,Bursa,Computer Eng,68
+Ece,ankara,Physics,73
+Zeynep,Istanbul,Biology,78
+Can,Ankara,Physics,61
+Ahmet,Istanbul,Computer Eng,57
+Ayse,ANKARA,Biology,41
+Ayse,ankara,Physics,85
+Ayse,Bursa,Biology,49
+Ayse,Ankara,Computer Eng,84
+Fatma,ANKARA,Computer Eng,48
+Can,Izmir,Computer Eng,83
+Can,Ankara,Mathematics,72
+Ece,Ankara,Physics,68
+Zeynep,Bursa,COMPUTER Science,45
+Ayse,Izmir,Mathematics,72
+Can,Istanbul,COMPUTER Science,97
+Fatma,Izmir,Computer Eng,60
+Can,Izmir,Mathematics,79
+Fatma,ANKARA,Biology,70
+Ayse,ankara,Physics,49
+Zeynep,Istanbul,COMPUTER Science,49
+Zeynep,Istanbul,Mathematics,76
+Ayse,Izmir,Physics,55
+Can,Ankara,Physics,88
+Fatma,Ankara,Physics,74
+Zeynep,Ankara,Mathematics,62
+Ahmet,ANKARA,COMPUTER Science,76
+Ahmet,Ankara,Biology,66
+Ece,Izmir,Biology,54
+Fatma,ankara,Physics,65
+Can,ankara,Mathematics,80
+Mehmet,ankara,Physics,68
+Mehmet,Bursa,Computer Eng,65
+Zeynep,ankara,Physics,86
+Ece,Bursa,Physics,85
+Ahmet,Ankara,Mathematics,82
+Ece,Bursa,Biology,52
+Ayse,ankara,COMPUTER Science,63
+Ece,Izmir,Physics,79
+Can,ANKARA,Biology,44
+Mehmet,ANKARA,Physics,83
+Mehmet,Bursa,Physics,56
+Fatma,Ankara,Mathematics,90
+Ece,Izmir,Physics,49
+Fatma,Bursa,Computer Eng,87
+Can,Bursa,COMPUTER Science,76
+Zeynep,ankara,Computer Eng,61
+Can,Izmir,Biology,53
+Mehmet,Bursa,Physics,87
+Mehmet,ANKARA,Mathematics,50
+Ece,Istanbul,COMPUTER Science,85
+Ece,Izmir,Physics,97
+Ece,ankara,Computer Eng,56
+Ayse,Ankara,Physics,56
+Zeynep,Istanbul,Physics,43
+Ahmet,Bursa,Mathematics,93
+Mehmet,ANKARA,Mathematics,41
+Can,Bursa,COMPUTER Science,87
+Ayse,Ankara,Mathematics,81
+Ahmet,Bursa,COMPUTER Science,43
+Mehmet,Bursa,Physics,83
+Ece,Bursa,COMPUTER Science,61
+Ece,Bursa,Mathematics,61
+Ece,Ankara,Mathematics,63
+Fatma,Izmir,Mathematics,77
+Can,ankara,Mathematics,77
+Zeynep,Izmir,COMPUTER Science,56
+Ece,Izmir,Physics,67
+Zeynep,Istanbul,COMPUTER Science,69
+Zeynep,Izmir,Mathematics,54
+Ece,Bursa,Biology,69
+Fatma,Izmir,COMPUTER Science,71
+Can,Izmir,Mathematics,96
+Ayse,ankara,COMPUTER Science,95
+Can,Istanbul,Physics,92
+Ayse,Bursa,COMPUTER Science,50
+Can,Ankara,Physics,96
+Ece,Izmir,Mathematics,40
+Zeynep,Istanbul,COMPUTER Science,95
+Ayse,Istanbul,Computer Eng,97
+Mehmet,Istanbul,COMPUTER Science,59
+Ayse,Bursa,Physics,86
+Mehmet,ANKARA,COMPUTER Science,79
+Ayse,ankara,Biology,86
+Ahmet,Izmir,Physics,50
+Zeynep,Bursa,Computer Eng,96
+Can,ankara,Biology,55
+Ahmet,Bursa,Mathematics,76
+Ahmet,Bursa,Biology,73
+Ahmet,ANKARA,Computer Eng,98
+Fatma,Istanbul,Computer Eng,52
+Can,ANKARA,Mathematics,71
+Ayse,Istanbul,Biology,82
+Mehmet,ANKARA,Biology,83
+Mehmet,Istanbul,Biology,43
+Ahmet,ANKARA,COMPUTER Science,70
+Fatma,Izmir,Mathematics,57
+Ayse,Izmir,COMPUTER Science,52
+Ece,ankara,COMPUTER Science,99
+Zeynep,Izmir,Mathematics,90
+Mehmet,Istanbul,COMPUTER Science,83
+Mehmet,Istanbul,Mathematics,64
+Fatma,Istanbul,Mathematics,77
+Ayse,ankara,Biology,54
+Ece,Ankara,COMPUTER Science,52
+Ece,Ankara,Computer Eng,48
+Mehmet,ANKARA,COMPUTER Science,99
+Mehmet,Bursa,Physics,94
+Fatma,Bursa,Physics,43
+Mehmet,Izmir,Mathematics,79
+Fatma,Ankara,Computer Eng,72
+Zeynep,Istanbul,COMPUTER Science,84
+Zeynep,Bursa,Computer Eng,76
+Can,Bursa,Computer Eng,51
+Can,Bursa,Computer Eng,91
+Can,Bursa,Physics,96
+Mehmet,Izmir,Biology,54
+Can,Ankara,Biology,83
+Ece,Izmir,Computer Eng,40
+Fatma,Ankara,Physics,53
+Ahmet,Istanbul,Biology,82
+Ahmet,Izmir,Physics,98
+Fatma,ankara,Biology,53
+Can,ANKARA,Physics,57
+Fatma,Izmir,Mathematics,48
+Ece,Ankara,Biology,79
+Ahmet,Izmir,Computer Eng,56
+Fatma,ANKARA,Physics,42
+Can,Ankara,COMPUTER Science,70
+Zeynep,ANKARA,Physics,84
+Ece,ANKARA,Computer Eng,56
+Ahmet,ANKARA,COMPUTER Science,53
+Fatma,Bursa,Mathematics,43
+Ece,ANKARA,Computer Eng,41
+Mehmet,ankara,COMPUTER Science,54
+Ayse,Bursa,Computer Eng,80
+Zeynep,ANKARA,Computer Eng,77
+Mehmet,Ankara,Physics,63
+Ayse,Bursa,Biology,57
+Ayse,ankara,COMPUTER Science,46
+Mehmet,Ankara,Mathematics,62
+Zeynep,Bursa,Biology,83
+Ece,ANKARA,Mathematics,82
+Zeynep,Bursa,COMPUTER Science,78
+Zeynep,ankara,Biology,79
+Ece,Ankara,Biology,90
+Ece,Izmir,Mathematics,65
+Mehmet,Bursa,Physics,92
+Ece,ankara,Computer Eng,91
+Ece,ankara,COMPUTER Science,82
+Ece,ANKARA,Mathematics,79
+Ahmet,Izmir,Physics,83
+Mehmet,Ankara,Physics,45
+Ece,ANKARA,Mathematics,69
+Mehmet,ANKARA,Biology,67
+Fatma,ANKARA,Computer Eng,66
+Can,Ankara,Mathematics,44
+Ece,Istanbul,Computer Eng,46
+Mehmet,Istanbul,COMPUTER Science,87
+Ahmet,Ankara,Biology,61
+Mehmet,Bursa,Physics,43
+Ayse,Izmir,COMPUTER Science,77
+Can,ANKARA,Mathematics,63
+Zeynep,Ankara,COMPUTER Science,58
+Mehmet,Ankara,COMPUTER Science,88
+Mehmet,Izmir,Biology,49
+Ece,Bursa,Mathematics,40
+Ece,Izmir,Physics,95
+Ece,ankara,COMPUTER Science,100
+Mehmet,ANKARA,Physics,41
+Ayse,Istanbul,Biology,70
+Mehmet,Istanbul,Biology,48
+Zeynep,ANKARA,COMPUTER Science,56
+Can,Ankara,Physics,100
+Zeynep,Istanbul,COMPUTER Science,60
+Ece,Izmir,Mathematics,50
+Zeynep,Bursa,Computer Eng,94
+Can,ANKARA,Biology,91
+Ayse,Istanbul,Mathematics,76
+Ayse,ankara,COMPUTER Science,62
+Mehmet,ANKARA,Computer Eng,91
+Can,ANKARA,Physics,48
+Zeynep,Istanbul,Computer Eng,54
+Can,ANKARA,COMPUTER Science,87
+Can,ankara,Mathematics,40
+Ahmet,Istanbul,COMPUTER Science,75
+Can,ankara,Mathematics,48
+Zeynep,Ankara,Physics,99
+Mehmet,Izmir,Physics,97
+Ayse,Bursa,Biology,61
+Mehmet,ankara,Biology,86
+Fatma,ankara,COMPUTER Science,92
+Ahmet,Ankara,COMPUTER Science,75
+Ayse,ankara,COMPUTER Science,84
+Zeynep,Izmir,Computer Eng,84
+Ahmet,ANKARA,COMPUTER Science,97
+Fatma,ANKARA,Biology,48
+Can,ANKARA,Physics,67
+Ece,Istanbul,Mathematics,61
+Zeynep,ANKARA,Biology,70
+Mehmet,Istanbul,Biology,100
+Ahmet,ANKARA,Computer Eng,46
+Fatma,Ankara,COMPUTER Science,47
+Ayse,Istanbul,Biology,94
+Ayse,ankara,Mathematics,71
+Fatma,Ankara,Mathematics,51
+Mehmet,ANKARA,Mathematics,69
+Ayse,ankara,Mathematics,48
+Can,Istanbul,Physics,93
+Ahmet,ankara,COMPUTER Science,43
+Ayse,Ankara,Physics,78
+Ayse,Ankara,Computer Eng,98
+Ayse,Bursa,COMPUTER Science,54
+Ece,ankara,Biology,96
+Zeynep,Ankara,COMPUTER Science,58
+Mehmet,ANKARA,Biology,78
+Ayse,ANKARA,Computer Eng,94
+Zeynep,Bursa,Biology,49
+Ahmet,Izmir,Mathematics,51
+Ahmet,Ankara,Physics,74
+Ahmet,Bursa,COMPUTER Science,75
+Ece,Ankara,COMPUTER Science,69
+Fatma,ankara,Biology,95
+Can,Izmir,Physics,85
+Mehmet,Ankara,COMPUTER Science,100
+Can,Ankara,Biology,90
+Ece,Istanbul,Physics,88
+Ayse,Izmir,Physics,43
+Ahmet,ankara,Biology,51
+Ece,ANKARA,Mathematics,67
+Ahmet,Ankara,COMPUTER Science,50
+Ahmet,ankara,Mathematics,58
+Can,Bursa,Mathematics,63
+Ahmet,ankara,Mathematics,49
+Fatma,ankara,Computer Eng,74
+Ece,Istanbul,Physics,96
+Zeynep,Istanbul,Physics,63
+Fatma,Bursa,Biology,89
+Mehmet,Izmir,Computer Eng,72
+Mehmet,Izmir,Physics,91
+Mehmet,ANKARA,Biology,67
+Ayse,ankara,Biology,54
+Fatma,Izmir,Physics,89
+Ayse,Istanbul,Computer Eng,90
+Ahmet,Bursa,Physics,43
+Ahmet,Istanbul,Physics,77
+Zeynep,Bursa,Physics,75
+Ece,ANKARA,Computer Eng,95
+Fatma,Bursa,Mathematics,84
+Can,Izmir,COMPUTER Science,47
+Ahmet,Bursa,Biology,82
+Fatma,ANKARA,Biology,95
+Ayse,ANKARA,Physics,73
+Zeynep,Bursa,Mathematics,84
+Ahmet,Bursa,Computer Eng,94
+Can,Ankara,Computer Eng,58
+Ece,ANKARA,Computer Eng,49
+Ayse,ankara,Computer Eng,52
+Fatma,ankara,Biology,77
+Can,Istanbul,Biology,99
+Ayse,ankara,Physics,58
+Ayse,Izmir,Physics,42
+Zeynep,Bursa,Biology,84
+Fatma,ANKARA,Mathematics,59
+Zeynep,ankara,COMPUTER Science,76
+Mehmet,Ankara,Physics,92
+Mehmet,Bursa,Computer Eng,44
+Zeynep,ankara,Computer Eng,47
+Fatma,ANKARA,Mathematics,97
+Ahmet,ankara,COMPUTER Science,79
+Can,Istanbul,Mathematics,63
+Fatma,ANKARA,COMPUTER Science,54
+Fatma,Izmir,COMPUTER Science,47
+Ahmet,Ankara,Computer Eng,66
+Ayse,Bursa,COMPUTER Science,45
+Fatma,Bursa,Physics,41
+Fatma,ANKARA,Biology,69
+Ece,ankara,Physics,68
+Ayse,Bursa,COMPUTER Science,77
+Fatma,ANKARA,Physics,66
+Ece,Istanbul,Mathematics,99
+Zeynep,Ankara,COMPUTER Science,44
+Fatma,Bursa,Computer Eng,96
+Ece,Ankara,Computer Eng,81
+Ahmet,Bursa,Physics,87
+Can,Istanbul,Biology,86
+Can,Bursa,Physics,75
+Mehmet,ankara,Physics,92
+Mehmet,Ankara,Biology,93
+Ece,Ankara,Physics,80
+Can,ankara,COMPUTER Science,81
+Can,Ankara,Physics,92
+Mehmet,Ankara,COMPUTER Science,86
+Mehmet,Ankara,Physics,70
+Zeynep,ankara,Physics,76
+Zeynep,Ankara,COMPUTER Science,91
+Can,Ankara,Computer Eng,45
+Ahmet,Ankara,Physics,67
+Fatma,Bursa,Biology,41
+Fatma,Istanbul,Biology,50
+Mehmet,Bursa,Mathematics,89
+Zeynep,Ankara,Computer Eng,53
+Zeynep,Ankara,Biology,96
+Fatma,Bursa,Computer Eng,58
+Can,Bursa,Physics,85
+Ahmet,Izmir,Physics,75
+Ece,Bursa,Biology,63
+Ahmet,Istanbul,Computer Eng,95
+Mehmet,Izmir,COMPUTER Science,90
+Mehmet,Bursa,Physics,50
+Can,Istanbul,Biology,78
+Zeynep,Bursa,Physics,54
+Can,ankara,Physics,98
+Can,ankara,Physics,69
+Can,Istanbul,Biology,62
+Ahmet,Bursa,Physics,47
+Ahmet,Bursa,COMPUTER Science,80
+Ahmet,ANKARA,Computer Eng,56
+Mehmet,ankara,Computer Eng,83
+Fatma,Izmir,Mathematics,96
+Can,ANKARA,Physics,45
+Can,ankara,Mathematics,48
+Ayse,Izmir,Biology,94
+Ece,Ankara,Mathematics,98
+Can,Izmir,COMPUTER Science,60
+Ayse,Istanbul,Computer Eng,65
+Mehmet,ANKARA,Mathematics,64
+Ayse,ANKARA,Computer Eng,48
+Mehmet,Bursa,Mathematics,92
+Ahmet,Ankara,COMPUTER Science,60
+Ece,ANKARA,Computer Eng,61
+Mehmet,Ankara,Physics,92
+Can,Izmir,COMPUTER Science,95
+Ayse,Bursa,Physics,56
+Ayse,ANKARA,Physics,41
+Ahmet,Bursa,Mathematics,88
+Can,Izmir,Mathematics,46
+Ahmet,Izmir,COMPUTER Science,73
+Ahmet,Istanbul,Physics,54
+Mehmet,Izmir,Biology,62
+Zeynep,ANKARA,COMPUTER Science,69
+Zeynep,Bursa,COMPUTER Science,81
+Ayse,Bursa,Computer Eng,62
+Ahmet,Izmir,COMPUTER Science,63
+Ayse,Bursa,COMPUTER Science,40
+Can,Izmir,Mathematics,86
+Ayse,Istanbul,Physics,76
+Ayse,Ankara,Biology,95
+Mehmet,Bursa,Biology,84
+Zeynep,ANKARA,Mathematics,57
+Ahmet,Ankara,Computer Eng,87
+Mehmet,ANKARA,Computer Eng,85
+Ece,ankara,Computer Eng,40
+Ahmet,ankara,COMPUTER Science,81
+Ayse,Bursa,Physics,65
+Can,ANKARA,COMPUTER Science,88
+Ahmet,Istanbul,Physics,95
+Mehmet,Ankara,Mathematics,56
+Ayse,Ankara,Computer Eng,75
+Ece,ANKARA,Computer Eng,50
+Mehmet,ANKARA,Mathematics,81
+Can,Izmir,Mathematics,69
+Can,ankara,Biology,90
+Ayse,Istanbul,Mathematics,93
+Zeynep,Bursa,COMPUTER Science,48
+Ahmet,Ankara,Physics,80
+Mehmet,Istanbul,COMPUTER Science,76
+Mehmet,ankara,COMPUTER Science,52
+Zeynep,ANKARA,COMPUTER Science,55
+Zeynep,ANKARA,Biology,69
+Fatma,Ankara,Mathematics,41
+Ahmet,Istanbul,COMPUTER Science,84
+Mehmet,ankara,Physics,79
+Mehmet,Izmir,Computer Eng,55
+Ahmet,Istanbul,COMPUTER Science,82
+Ece,Bursa,Computer Eng,81
+Fatma,Izmir,COMPUTER Science,82
+Ece,Bursa,Mathematics,48
+Mehmet,Ankara,Biology,44
+Ayse,ANKARA,COMPUTER Science,70
+Mehmet,ankara,Mathematics,91
+Fatma,Ankara,Physics,90
+Mehmet,Izmir,COMPUTER Science,96
+Ayse,Istanbul,Mathematics,98
+Zeynep,ankara,Mathematics,52
+Fatma,ankara,COMPUTER Science,90
+Ayse,Ankara,Physics,96
+Fatma,Bursa,Biology,63
+Ayse,Ankara,Physics,69
+Zeynep,Izmir,Mathematics,43
+Ahmet,ANKARA,Mathematics,79
+Mehmet,Ankara,Biology,70
+Fatma,Izmir,Biology,99
+Ayse,ankara,Physics,92
+Can,ankara,Computer Eng,62
+Ahmet,ANKARA,COMPUTER Science,76
+Ahmet,Bursa,Computer Eng,73
+Ahmet,Ankara,Biology,88
+Ayse,ankara,Mathematics,55
+Ayse,Istanbul,Physics,86
+Zeynep,ANKARA,Biology,43
+Fatma,Istanbul,Computer Eng,70
+Zeynep,Ankara,Mathematics,99
+Ece,ankara,Mathematics,83
+Fatma,Izmir,Biology,54
+Zeynep,Istanbul,Computer Eng,99
+Ece,ankara,Physics,56
+Fatma,Istanbul,Computer Eng,84
+Ahmet,ANKARA,Computer Eng,96
+Fatma,ankara,COMPUTER Science,87
+Ahmet,Istanbul,Physics,96
+Mehmet,Bursa,Computer Eng,62
+Ahmet,ankara,Mathematics,41
+Ece,Bursa,Biology,41
+Zeynep,ANKARA,Biology,60
+Can,Izmir,Computer Eng,88
+Zeynep,ANKARA,Physics,59
+Fatma,Bursa,COMPUTER Science,47
+Ece,Izmir,Physics,90
+Ahmet,Ankara,Biology,40
+Zeynep,Ankara,Biology,94
+Ahmet,Ankara,COMPUTER Science,53
+Ayse,Izmir,COMPUTER Science,72
+Fatma,ANKARA,Biology,56
+Can,Ankara,Biology,81
+Zeynep,Ankara,Mathematics,78
+Ayse,Izmir,COMPUTER Science,57
+Ayse,ankara,COMPUTER Science,62
+Ahmet,Ankara,Biology,89
+Fatma,Izmir,COMPUTER Science,68
+Zeynep,Istanbul,Computer Eng,99
+Mehmet,Izmir,Computer Eng,49
+Ahmet,Ankara,COMPUTER Science,98
+Mehmet,Bursa,Computer Eng,93
+Can,Istanbul,Biology,77
+Ahmet,ankara,Mathematics,79
+Can,Izmir,Computer Eng,64
+Ece,Bursa,Mathematics,91
+Ece,Istanbul,Physics,73
+Ahmet,ANKARA,Physics,70
+Fatma,ankara,Computer Eng,86
+Ece,ANKARA,COMPUTER Science,67
+Ahmet,Ankara,Physics,93
+Can,Ankara,Mathematics,75
+Ahmet,ankara,COMPUTER Science,72
+Can,Ankara,COMPUTER Science,69
+Can,Ankara,Biology,92
+Can,Ankara,Computer Eng,40
+Zeynep,Istanbul,Biology,80
+Ece,Bursa,COMPUTER Science,58
+Ahmet,Izmir,COMPUTER Science,54
+Zeynep,Istanbul,Physics,72
+Can,ANKARA,COMPUTER Science,49
+Can,ANKARA,Physics,56
+Ece,Ankara,COMPUTER Science,52
+Ayse,ankara,Biology,52
+Mehmet,ankara,Mathematics,69
+Can,ankara,COMPUTER Science,49
+Zeynep,ankara,Computer Eng,79
+Ayse,Ankara,Mathematics,90
+Ahmet,ankara,COMPUTER Science,80
+Ahmet,Ankara,COMPUTER Science,55
+Fatma,Ankara,Biology,89
+Ece,Ankara,Biology,83
+Fatma,Bursa,Mathematics,55
+Zeynep,Ankara,Physics,85
+Ahmet,Izmir,Physics,49
+Fatma,Istanbul,Computer Eng,90
+Mehmet,ANKARA,Physics,61
+Ahmet,Ankara,Physics,52
+Mehmet,Bursa,Physics,90
+Ahmet,Bursa,Physics,76
+Ahmet,ANKARA,Biology,64
+Zeynep,Ankara,Physics,71
+Ayse,Izmir,Computer Eng,92
+Ahmet,Bursa,Physics,79
+Mehmet,Izmir,Biology,57
+Zeynep,ankara,COMPUTER Science,77
+Ahmet,Istanbul,Computer Eng,66
+Mehmet,Izmir,Mathematics,50
+Ece,Izmir,Physics,40
+Ayse,Istanbul,Mathematics,92
+Ece,ankara,COMPUTER Science,82
+Ece,Ankara,Mathematics,57
+Can,ANKARA,Mathematics,44
+Fatma,Ankara,Computer Eng,57
+Ahmet,Bursa,COMPUTER Science,54
+Mehmet,Ankara,Biology,55
+Zeynep,Ankara,COMPUTER Science,59
+Can,ankara,Biology,94
+Can,Ankara,Biology,82
+Mehmet,ANKARA,Biology,64
+Fatma,Izmir,Physics,48
