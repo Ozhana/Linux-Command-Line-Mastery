@@ -8,8 +8,9 @@ grep -in -e "error" -e "critical" ./system.log && grep -in -e "error" -e "critic
 grep -Ei "error|critical" system.log -n
 
 # ANALYST NOTES
--E: "Veya" (|) işaretini kullanabilmek için (Extended Regex).
+-E: "OR" (|) For using the complex Regex notations and "OR" sign (Extended Regex).
+      PATTERNS are extended regular expressions
 
--i: Büyük/küçük harf duyarsızlığı.
+-i: ignore case distinctions in patterns and data
 
--n: Satır numarası.
+-n: print line number with output lines
