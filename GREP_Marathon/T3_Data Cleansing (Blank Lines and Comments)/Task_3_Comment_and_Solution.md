@@ -4,7 +4,8 @@
 # GOREVLENDIRME TURKCE
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
-| *### Difficulty Degree: 2/5
+| * ### Difficulty Degree: 2/5 | * ### Zorluk duzeyi: 2/5|
+| Situation: You are working on an Arduino project or have a configuration file. | Durum: Bir Arduino projesi üzerinde çalışıyorsun veya bir konfigürasyon dosyan var. |
 
 Situation: You are working on an Arduino project or have a configuration file.
 The file is very crowded; dozens of empty lines and # or // There are comment lines starting with.
