@@ -41,7 +41,7 @@ Solve the Challenge: Follow the "İstekler" (Requirements) provided in the task 
 
 Check the Solution: Compare your one-liner or script with the provided "Gemini Analysis" solutions.
 
-##👨‍🏫 About the Author
+## 👨‍🏫 About the Author
 Dr. Ozhan Akdag
 
 Ph.D. in Mathematics & Ph.D. in Education.
@@ -50,7 +50,7 @@ Mathematics Teacher & Robotics Club Manager.
 
 Freelance Data Analyst with a passion for Linux automation and Cybersecurity.
 
-##📈 Roadmap
+## 📈 Roadmap
 [x] Tasks 01-15: Basic & Intermediate Grep
 
 [x] Tasks 16-25: Advanced Grep & Regex
