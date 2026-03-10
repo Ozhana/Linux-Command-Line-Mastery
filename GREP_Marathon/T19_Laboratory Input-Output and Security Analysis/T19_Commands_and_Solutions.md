@@ -25,6 +25,11 @@ n=$(grep -E "^[^ ]+ 1[2-9]:([0-9]){2}:([0-9]){2}" g19_access_logs.txt | grep "EN
 echo -n "$n "
 done
 
-FOR KULLANMADAN
+FOR KULLANMADAN - TR - ile
+
+grep "ENTRY" g19_access_logs.txt | grep "FAIL" | grep -oE "USER_[0-9]{2}" | sort | uniq -c | sort -nr | head -n 3 | grep -oE "USER_[0-9]{2}" | tr '\n' ',' | sed 's/,$//'
+
+- XARGS - ile
+
 grep "ENTRY" g19_access_logs.txt | grep "FAIL" | grep -oE "USER_[0-9]{2}" | sort | uniq -c | sort -nr | head -n 3 | grep -oE "USER_[0-9]{2}" | xargs echo "ŞÜPHELİ LİSTESİ:"
 ```
