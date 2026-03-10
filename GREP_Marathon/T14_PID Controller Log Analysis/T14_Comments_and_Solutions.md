@@ -13,6 +13,9 @@
 2. grep -E "[5-9][0-9]{1,2}($)" g14_pid_debug.log | sort -t, -k4r
 
 n=$(grep -Ec "[5-9][0-9]{1,2}($)" g14_pid_debug.log)
-for ((i=1; i<=n; i++)); do k=$(grep -Eo "[5-9][0-9]{1,2}($)" g14_pid_debug.log | sort -n | head -n "$i" | tail -n 1); ((t=t+k));  done
+for ((i=1; i<=n; i++));
+do
+k=$(grep -Eo "[5-9][0-9]{1,2}($)" g14_pid_debug.log | sort -n | head -n "$i" | tail -n 1); ((t=t+k))
+done
 echo "scale=2; $t / $n" |bc
 ```
