@@ -7,4 +7,4 @@
 | **Step 2:** MISSION | **Adım 2:** GOREV |
 | 1. Only completed (that is :END Find packages ending in). <br> 2. Just among these DATA part is 3 digits filter what happened. <br> 3. Bonus: Show only DATA and CHECKSUM parts of valid packages (Tip: cut -d':' -f2,3). | 1. Sadece tamamlanmış (yani :END ile biten) paketleri bul. <br> 2. Bunların içinden sadece DATA kısmı 3 haneli olanları süz. <br> 3. Bonus: Geçerli paketlerin sadece DATA ve CHECKSUM kısımlarını göster (İpucu: cut -d':' -f2,3). |
 | **Step 3:* SOLUTION | **Adım 2:** CEVAP |
-| grep -E "^[^:]+:[1-9][0-9]{2}" g9_arduino_serial.log | grep "END" | cut -d':' -f2,3 | grep -E "^[^:]+:[1-9][0-9]{2}" g9_arduino_serial.log | grep "END" | cut -d':' -f2,3 |
+| grep -E "^[^:]+:[1-9][0-9]{2}" g9_arduino_serial.log \| grep "END" \| cut -d':' -f2,3 | grep -E "^[^:]+:[1-9][0-9]{2}" g9_arduino_serial.log \| grep "END" \| cut -d':' -f2,3 |
