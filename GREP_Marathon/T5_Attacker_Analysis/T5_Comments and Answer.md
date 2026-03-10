@@ -16,7 +16,7 @@
 ``` bash
 grep "Failed password" auth.log | grep -oE "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | sort | uniq -c | sort -nr
 ```
-|  |  |
+
 | :--- | :--- |
 | Analysis: <br> grep "Failed password": We only selected incorrect attempts.<br> grep -oE "...": We just tweezed the IP parts.<br>sort: We juxtaposed the IPs (essential for Uniq to work properly).<br>uniq -c: We counted how many “attacks” came from which IP.<br><br>sort -nr: We put the one who hits the hardest at the top. | Analiz: <br> grep "Failed password": Sadece hatalı denemeleri seçtik. <br> grep -oE "...": Sadece IP kısımlarını cımbızla çektik. <br> sort: IP'leri yan yana getirdik (Uniq'in düzgün çalışması için şart). <br> uniq -c: Hangi IP'den kaç "saldırı" geldiğini saydık. <br> sort -nr: En çok vuranı en tepeye koyduk |
 | Golden Knowledge (Hint): After pulling the IPs with Grep, you should use this chain: <br> grep ... \| sort \| uniq -c \| sort -nr <br> sort: Queues IPs (essential for the uniq command to work). <br> uniq -c: He combines the same ones and writes down how many times he repeats them. <br><br> sort -nr: By numbers (-n) from largest to smallest (-r) rows. | Altın Bilgi (İpucu): Grep ile IP'leri çektikten sonra şu zinciri kullanmalısın: <br> grep ... \| sort \| uniq -c \| sort -nr <br> sort: IP'leri sıraya dizer (uniq komutunun çalışması için şarttır). <br> uniq -c: Aynı olanları birleştirir ve yanına kaç kez tekrar ettiğini yazar. <br><br> sort -nr: Sayılara göre (-n) büyükten küçüğe (-r) sıralar. |
