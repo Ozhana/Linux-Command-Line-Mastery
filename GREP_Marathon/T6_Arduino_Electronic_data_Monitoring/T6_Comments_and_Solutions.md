@@ -2,9 +2,10 @@
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
 | *** ### Difficulty Degree:** 2.5/5 | *** ### Zorluk duzeyi:*** 2.5/5|
-| SCENARIO:  | SENARYO: |
-| **Step 1:** Prepare the data (or download from here)| **Adım 1:** Data Olustur (veya buradan indir) |
+| SCENARIO: You did an Arduino project at the Robotics club. You save data from sensors to a file from the serial port (sensor_data.csv). However, the sensor sometimes makes incorrect readings NAN (Note a Number) or OVF (Overflow) returns values. Also temperature data T:25.5 it comes in format. | SENARYO: Robotics kulübünde bir Arduino projesi yaptın. Sensörlerden gelen verileri seri porttan bir dosyaya kaydediyorsun (sensor_data.csv). Ancak sensör bazen hatalı okuma yapıp NAN (Not a Number) veya OVF (Overflow) değerleri döndürüyor. Ayrıca sıcaklık verisi T:25.5 formatında geliyor. |
+| **Step 1:** Prepare the data (or download from here) The is Python code for you sensor_data.csv it will create | **Adım 1:** Data Olustur (veya buradan indir) Buradaki Python kodu sana sensor_data.csv oluşturacak. |
 | **Step 2:** MISSION | **Adım 2:** GOREV |
-|  |  |
+| 1. In file incorrect data (NAN or OVF) find with line number. <br> 2. Only temperature values (that is T: filter the lines with parts starting with) and save these values to a “clean_liste.txt” file. (Hint: > you can use redirect). <br> 3. Bonus (Muscle Memory): In file both hour 14:00 with 14:59 the interval (or any time zone in the file) is saved and also T:30 above degree (with regex T:3[0-9]) can you find the data? | 1. Dosyadaki hatalı verileri (NAN veya OVF) satır numarasıyla birlikte bul. <br> 2. Sadece sıcaklık değerlerinin (yani T: ile başlayan kısımların) olduğu satırları süz ve bu değerleri bir "temiz_liste.txt" dosyasına kaydet. (İpucu: > yönlendirmesi kullanabilirsin). <br> 3. Bonus (Kas Hafızası): Dosyada hem saat 14:00 ile 14:59 arası (veya dosyadaki herhangi bir saat dilimi) kaydedilmiş hem de T:30 derecenin üzerindeki (regex ile T:3[0-9]) verileri bulabilir misin? |
 | **Step 3:* SOLUTION | **Adım 2:** CEVAP |
-|  |  |
+| 1. grep -iE "NAN\|OVF" g6.csv -n <br> 2. grep -E "T:" g6.csv > temiz_liste.txt <br> 3. grep -E "02:[0-9]{2}\|T:3[1-9]" g6.csv | 1. grep -iE "NAN\|OVF" g6.csv -n <br> 2. grep -E "T:" g6.csv > temiz_liste.txt <br> 3. grep -E "02:[0-9]{2}\|T:3[1-9]" g6.csv |
+| Golden Knowledge: Here > (routing) and the number ranges in regex come into play | Altin Bilgi: Burada > (yönlendirme) ve regex'teki sayı aralıkları devreye giriyor. |
