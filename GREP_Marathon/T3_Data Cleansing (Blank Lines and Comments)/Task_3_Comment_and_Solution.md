@@ -14,7 +14,3 @@
 
 2. grep -vE "^$|//" g3.ino
 ```
-| Part Two of Task 3 (Deepening) | Görev 3 İçin Alternatif ve Daha "Sağlam" Yollar |
-| Now both the spaced lines and comments (//) eliminate. Let's see how you will create this "combo" command? <br> Scenario Continued: <br> 1. To eliminate lines that only contain spaces/tabs ^[[:space:]]*$ you can use your pattern. <br><br> 2. //You should also leave out lines starting with. <br><br> Hint: To hold multiple eliminations in a row -v with -e you can combine your options: <br> grep -v -e "desen1" -e "desen2" dosya | 1. Sadece Boşluklardan Oluşan Satırları da Yakalamak:<br>Senin yazdığın ^$ sadece "gerçek boşluğu" yakalar. Ama "boşluk karakteri (space/tab)" içeren satırları da elemek istersen şu altın formülü kullanabiliriz: <br> ``` bash <br>
-grep -vE "^[[:space:]]*$" g3.ino <br>
-``` <br>(Buradaki *, "hiç yok veya çok var" demektir; yani satırın başından sonuna kadar sadece boşluk varsa o satırı kümeden atar.) <br><br> 2. POSIX Sınıfları Kullanarak "Temiz Kod" Çıkarmak: <br> Eğer hem boş satırları hem de // ile başlayan yorumları tek seferde uçurmak istersen: <br> grep -vE "^[[:space:]]*($|//)" g3.ino <br> (Buradaki parantez; "ya satır sonu gelsin (boş satır) ya da // gelsin" anlamına gelir.) |
