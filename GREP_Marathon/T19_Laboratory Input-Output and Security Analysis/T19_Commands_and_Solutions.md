@@ -9,5 +9,12 @@
 | **Step 3:* SOLUTION | **Adım 2:** CEVAP |
 
 ``` bash
+1. grep -E "^[^ ]+ 1[2-7]:([0-9]){2}:([0-9]){2}" g19_access_logs.txt
+2. grep -E "^[^ ]+ 1[2-7]:([0-9]){2}:([0-9]){2}" g19_access_logs.txt | grep "ENTRY" | grep "FAIL"
+3A. grep -E "^[^ ]+ 1[2-7]:([0-9]){2}:([0-9]){2}" g19_access_logs.txt | grep "ENTRY" | grep "FAIL" | grep -oE "USER_[0-9]{1,2}" | sort |uniq -c | sort -nr
+-- bu kodda cut - kullanmak istememistim ama cut -d hali de asagida
+3B. grep -E "^[^ ]+ 1[2-7]:([0-9]){2}:([0-9]){2}" g19_access_logs.txt | grep "ENTRY" | grep "FAIL" | cut -d' ' -f4 | sort |uniq -c | sort -nr
+4. for ((i=1;i<=top;i++)); do n=$(grep -E "^[^ ]+ 1[2-9]:([0-9]){2}:([0-9]){2}" g19_access_logs.txt | grep "ENTRY" | grep "FAIL" | cut -d' ' -f4 | sort |uniq -c | sort -nr | head -n "$i" | tail -n 1); echo -n "$n "; done
 
+paste komutunu bilmiyorum ama en kisa zamanda calisacagim
 ```
