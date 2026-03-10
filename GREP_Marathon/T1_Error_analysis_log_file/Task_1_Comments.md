@@ -4,11 +4,15 @@ Display the lines in system.log that contain the words error or critical, withou
 ### SOLUTION 1
 ---
 ``` bash
-grep -in -e "error" -e "critical" ./system.log && grep -in -e "error" -e "critical" ./system.log | wc -l ```
+grep -in -e "error" -e "critical" ./system.log && grep -in -e "error" -e "critical" ./system.log | wc -l
+```
+
 
 ### SOLUTION 2
 ---
+``` bash
 grep -Ei "error|critical" system.log -n
+```
 
 ### ANALYST NOTES
 ---
