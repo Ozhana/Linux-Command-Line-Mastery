@@ -24,4 +24,7 @@ do
 n=$(grep -E "^[^ ]+ 1[2-9]:([0-9]){2}:([0-9]){2}" g19_access_logs.txt | grep "ENTRY" | grep "FAIL" | cut -d' ' -f4 | sort |uniq -c | sort -nr | head -n "$i" | tail -n 1)
 echo -n "$n "
 done
+
+FOR KULLANMADAN
+grep "ENTRY" g19_access_logs.txt | grep "FAIL" | grep -oE "USER_[0-9]{2}" | sort | uniq -c | sort -nr | head -n 3 | grep -oE "USER_[0-9]{2}" | xargs echo "ŞÜPHELİ LİSTESİ:"
 ```
