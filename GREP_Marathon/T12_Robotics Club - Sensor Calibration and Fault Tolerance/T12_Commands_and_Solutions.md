@@ -9,7 +9,6 @@
 | **Step 3:* SOLUTION | **Adım 2:** CEVAP |
 
 ``` bash
-yaptigim sudur
 1. grep -E "^[^,]+,[0-9]{3}|-" g12_sensor_raw.log
 2. grep -E "^[^,]+,[0-9]{2}" g12_sensor_raw.log |tee /dev/stderr | wc -l
 3. echo -e "Toplamda\n $(grep -Ec "^[^,]+,[0-9]{3}|-" g12_sensor_raw.log)  hatali sonuc\n $(grep -Ec "^[^,]+,[0-9]{2}" g12_sensor_raw.log)  10'dan buyuk sonuc\n $(grep -Ec "^[^,]+,[0-9]{1}" g12_sensor_raw.log)  adet 10'dan kucuk sonuc var"
