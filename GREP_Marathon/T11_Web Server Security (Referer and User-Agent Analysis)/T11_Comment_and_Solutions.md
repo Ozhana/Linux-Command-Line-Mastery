@@ -13,7 +13,9 @@ Aşağıdaki komutlar, erişim logları içerisindeki Python ve Curl isteklerini
 
 ```bash
 grep -E "\"-\"|\" - \"" g11_web_access.log | grep -iE "python|curl" | grep -E "^([0-9]{1,3}.){3}[0-9]{1,3}" | cut -d' ' -f1 |sort |uniq -c | sort -nr
-
+```
 OR
+```bash
 
 grep -E "\"-\"|\" - \"" g11_web_access.log | grep -iE "python|curl" | cut -d' ' -f1 |sort |uniq -c | sort -nr
+```
