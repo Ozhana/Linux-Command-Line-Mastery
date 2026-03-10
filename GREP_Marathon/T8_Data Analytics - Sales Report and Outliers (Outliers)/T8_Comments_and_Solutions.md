@@ -1,10 +1,10 @@
 # INSTRUCTIONS IN ENGLISH ------ GOREVLENDIRME TURKCE
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
-| ***##Difficulty_Degree:** 3.5/5 | ***### Zorluk duzeyi:*** 3.5/5|
-| SCENARIO:  | SENARYO: |
-| **Step 1:** Prepare the data (or download from here)| **Adım 1:** Data Olustur (veya buradan indir) |
+| ***### Difficulty Degree:*** 3.5/5 | ***### Zorluk duzeyi:*** 3.5/5|
+| SCENARIO: From a client as a freelance data analyst sales.csv you got the file. In file Tarih,Ürün,Miktar,Birim_Fiyat they have information. Customer, especially unit price is 1000 TL and above he wonders about sales that are (i.e., those that fall into the luxury segment or may have been entered incorrectly). | SENARYO: Freelance veri analisti olarak bir müşterinden sales.csv dosyası aldın. Dosyada Tarih,Ürün,Miktar,Birim_Fiyat bilgileri var. Müşteri, özellikle birim fiyatı 1000 TL ve üzeri olan (yani lüks segmente giren veya hatalı girilmiş olabilecek) satışları merak ediyor. |
+| **Step 1:** Prepare the data (or download from here). This is Python code for you sales.csv creates file.| **Adım 1:** Data Olustur (veya buradan indir). Buradaki Python kodu sana sales.csv dosyasını oluşturur. |
 | **Step 2:** MISSION | **Adım 2:** GOREV |
-|  |  |
+| 1. Price 4 digit Find all rows with (between 1000 and 9999). (Hint: Because they're at the end of the line [0-9]{4}$ you can use it). <br> 2. Among these products "Laptop" filter out what doesn't exist. (Because it is normal for the Laptop to be 1000+, we want other "weird" expensive products). <br> 3. Summarize which products these "outlier" (outlier) sales are and how many there are. (Remember: cut, the sort, the uniq -c). | 1. Fiyatı 4 haneli (1000 ile 9999 arası) olan tüm satırları bul. (İpucu: Satırın en sonunda oldukları için [0-9]{4}$ kullanabilirsin). <br> 2. Bu ürünler arasından "Laptop" olmayanları süz. (Çünkü Laptop'un 1000+ olması normal, biz diğer "tuhaf" pahalı ürünleri istiyoruz). <br> 3. Bu "aykırı" (outlier) satışların hangi ürünler olduğunu ve kaçar tane olduğunu özetle. (Hatırla: cut, sort, uniq -c). |
 | **Step 3:* SOLUTION | **Adım 2:** CEVAP |
-|  |  |
+| 1. grep -E "^([^,]+,){3}[1-9][0-9]{3}(,\|$)" g8_sales.csv <br> 2. grep -E "^([^,]+,){3}[1-9][0-9]{3}(,\|$)" g8_sales.csv \| grep -vi "laptop" <br> 3. grep -E "[0-9]{4}$" g8_sales.csv \| grep -v "Laptop" \| cut -d',' -f2 \| sort \| uniq -c \| sort -nr | 1. grep -E "^([^,]+,){3}[1-9][0-9]{3}(,\|$)" g8_sales.csv <br> 2. grep -E "^([^,]+,){3}[1-9][0-9]{3}(,\|$)" g8_sales.csv \| grep -vi "laptop" <br> 3. grep -E "[0-9]{4}$" g8_sales.csv \| grep -v "Laptop" \| cut -d',' -f2 \| sort \| uniq -c \| sort -nr |
