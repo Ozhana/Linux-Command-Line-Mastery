@@ -9,7 +9,7 @@
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
-grep -E ":(8080|4444)" network_traffic.log 
-grep -E ":(8080|4444)" network_traffic.log | grep -Ei "BLOCKED"
-grep -E ":(8080|4444)" network_traffic.log | grep -Eic "BLOCKED" | 
+1. grep -E ":(8080|4444)" network_traffic.log 
+2. grep -E ":(8080|4444)" network_traffic.log | grep -Ei "BLOCKED"
+3. grep -E ":(8080|4444)" network_traffic.log | grep -Eic "BLOCKED" | 
 ```
