@@ -9,10 +9,13 @@ Be careful, though: the word “Ankara” may sometimes be written as ANKARA or 
 2. Print how many such students there are on the screen, showing only the number.
 
 ### SOLUTION
----
+
+``` bash
 1. grep -i "ankara" students.csv . | grep -i "computer"
 2. grep -i "ankara" students.csv . | grep -i "computer" ;echo "toplam : $(grep -i "ankara" students.csv . | grep -ic "computer")"
+```
 
 or
-
+``` bash
 grep -i "ankara" students.csv . | grep -i "computer" | tee /dev/stderr | wc -l
+```
