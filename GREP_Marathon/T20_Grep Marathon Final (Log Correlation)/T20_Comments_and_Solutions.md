@@ -9,5 +9,23 @@
 | **Step 3:* SOLUTION | **Adım 2:** CEVAP |
 
 ``` bash
+1. grep -Ei "critical" g20_system.log | grep -Eo "([0-9]{2}:){2}[0-9]{2}"
 
+2. tim=$(!!)
+
+for i in $tim; do grep -E "$i" g20_sensor.log; done
+# 1. Saatleri bir listeye alalım
+hatali_saatler=$(grep -Ei "critical" g20_system.log | grep -Eo "([0-9]{2}:){2}[0-9]{2}")
+
+# 3 - 4. Döngü ile her saat için sensör verisini çekip formatlayalım
+for saat in $hatali_saatler; do
+    # Sensör logunda o saati buluyoruz
+    sensor_verisi=$(grep "\[$saat\]" g20_sensor.log)
+    
+    # Sadece 40.0 derece üzerindekileri raporlayalım (Regex: 4[0-9]\.[0-9])
+    echo "$sensor_verisi" | grep -E "4[0-9]\.[0-9]" | while read -r satir; do
+        sicaklik=$(echo "$satir" | grep -Eo "[0-9]{2}\.[0-9]")
+        echo "Kritik Hata Aninda Sicaklik: [$saat] -> $sicaklik C"
+    done
+done
 ```
