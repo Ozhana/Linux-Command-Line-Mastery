@@ -22,6 +22,8 @@ OR
 
 2B. sed -Ei 's/(FAIL \| [0-9]{1,2})/\1 | !!!_RETAKE_EXAM_!!!/g' g23_A_students.csv
 3. sed -E '/N\/A/Id' g23_A_students.csv 
-4. sed -E -e 's/,/ \| /g' -e 's/(FAIL \| [0-9]{1,2})/\1 | !!!_RETAKE_EXAM_!!!/g' -e '/N\/A/Id'  g23_students.csv
+4. sed -E -e 's/,/ \| /g' \
+-e 's/(FAIL \| [0-9]{1,2})/\1 | !!!_RETAKE_EXAM_!!!/g' \
+-e '/N\/A/Id'  g23_students.csv
 5. sed -E 's/^([A-Za-z]|[a-z]{3})[A-Za-z]*_[0-9]{3}/\1***/' g23_A_students.csv 
 ```
