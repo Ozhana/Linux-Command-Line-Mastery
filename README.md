@@ -1,64 +1,62 @@
-Linux Command Line Mastery: From Zero to Analyst
-Welcome to my personal training laboratory for Linux Command Line tools. This repository is a collection of hands-on, scenario-based challenges designed to master powerful tools like grep, sed, awk, and bash scripting.
+# 🐧 Linux Terminal Mastery: Computational Data Analytics Hub
 
-As a Mathematics Teacher and Data Analyst, I believe the best way to learn is by doing. That's why every challenge here comes with a custom Python script that generates a unique, realistic dataset for you to analyze.
+Welcome to my professional training laboratory for Linux Command Line environments. This repository serves as a high-level computational workspace where I bridge **Pure Mathematics**, **Statistical Analysis**, and **System Engineering** through the power of the terminal.
 
-## 🚀 The Learning Philosophy
-Instead of just reading manual pages, this project focuses on:
+As a **Doctor of Mathematics (Ph.D.)** and **Freelance Data Analyst**, I treat the Linux CLI as a high-performance functional programming environment. This hub is designed to master data-driven automation using tools like `grep`, `sed`, `awk`, and `bash`.
 
-Real-World Scenarios: Cybersecurity log analysis, Robotics telemetry, Financial auditing, and System administration.
+---
 
-Data Generation: Using Python to create "dirty" data (logs with errors, outliers, and inconsistencies) to simulate real environments.
+## 🎯 The Philosophy: "Mathematical Rigor in Automation"
+Rather than basic tutorials, this project simulates complex environments to test analytical resilience:
 
-Pipeline Thinking: Connecting multiple commands using pipes (|) to build complex data processing workflows.
+* **Synthetic Data Engineering:** I utilize **Python** to generate "dirty" datasets—logs with induced anomalies, outliers, and security inconsistencies—mimicking real-world business and scientific data.
+* **Pipeline Optimization:** Building complex one-liners to transform raw, unstructured telemetry into actionable insights.
+* **Scenario-Based Logic:** Challenges focus on **Cybersecurity**, **Robotics Telemetry**, and **Financial Auditing**.
 
-## 📂 Repository Structure
-The curriculum is organized into levels:
+---
 
-1. The Grep Marathon (Tasks 01-20) 🔍
-Status: In Progress
+## 📂 Curriculum Structure
+The laboratory is organized into progressive levels of computational complexity:
 
-Topics: Basic filtering, Extended Regex (ERE), Invert matching (-v), Character classes, and counting.
+### 1. The Grep Marathon (Level: Intermediate) 🔍
+*Focus: Pattern Recognition & Text Filtering*
+- **Status:** Tasks 01-25 Completed.
+- **Key Modules:** Extended Regex (ERE), Invert matching, and security-centric log filtering (e.g., detecting unauthorized port access or bot-net patterns).
 
-Key Highlights: * Robotics PID controller log analysis.
+### 2. The Sed Transformation (Level: Advanced) 🛠️
+*Focus: Non-Interactive Stream Editing*
+- **Status:** In Progress.
+- **Key Modules:** In-place file manipulation, complex string substitution, and data anonymization (masking PII like dates or IDs in system logs).
 
-Network traffic monitoring for suspicious ports (8080, 4444).
+### 3. The Awk Analytics (Level: Expert) 📊
+*Focus: Field Processing & Terminal-Based Statistics*
+- **Status:** Upcoming.
+- **Key Modules:** Calculating means, variances, and frequency distributions directly in the CLI. This is where my **Mathematics Ph.D.** meets Data Engineering.
 
-Automated inventory reporting using Bash loops.
+---
 
-2. The Sed Transformation (Upcoming) 🛠️
-Focus: Stream Editing, find and replace, line deletion, and text manipulation without opening files.
+## 🛠️ Workflow & Methodology
 
-3. The Awk Analytics (Upcoming) 📊
-Focus: Advanced field processing, variables, and mathematical calculations within the terminal.
+1.  **Generate Dataset:** Run the specific Python generator for the task.
+    ```bash
+    python3 generate_logs.py
+    ```
+2.  **Analyze & Solve:** Apply CLI logic to meet the requirements (e.g., find the frequency of 404 errors per user).
+3.  **Validate:** Compare results with established statistical benchmarks.
 
-🛠️ How to Use This Repo
-Generate the Data: Run the Python script provided for each task.
+---
 
-Bash
-python3 g19_generator.py
-Solve the Challenge: Follow the "İstekler" (Requirements) provided in the task description.
+## 👨‍🏫 About the Author: Dr. Ozhan Akdag
+* **Ph.D. in Mathematics & Education:** Specialized in Topology and STEM pedagogy.
+* **Freelance Data Analyst:** Expert in Python automation and statistical modeling.
+* **STEM Mentor:** Robotics Club Manager and Linux systems enthusiast.
 
-Check the Solution: Compare your one-liner or script with the provided "Gemini Analysis" solutions.
+> *"In mathematics, you don't understand things. You just get used to them. In Linux, you don't just use things. You automate them."*
 
-## 👨‍🏫 About the Author
-Dr. Ozhan Akdag
+---
 
-Ph.D. in Mathematics & Ph.D. in Education.
-
-Mathematics Teacher & Robotics Club Manager.
-
-Freelance Data Analyst with a passion for Linux automation and Cybersecurity.
-
-## 📈 Roadmap
-[x] Tasks 01-15: Basic & Intermediate Grep
-
-[x] Tasks 16-25: Advanced Grep & Regex
-
-[x] Tasks 26-40: Mastering sed
-
-[x] Tasks 41-60: The Power of awk
-
-[x] Final Project: Building a Full Log Analysis Dashboard in Bash.
-
-“In mathematics, you don't understand things. You just get used to them. In Linux, you don't just use things. You automate them.”
+## 📈 Roadmap & Milestones
+- [x] **Milestone 1:** Tasks 01-25: Advanced Grep & Security Log Logic.
+- [ ] **Milestone 2:** Tasks 26-40: Stream Transformation with `sed`.
+- [ ] **Milestone 3:** Tasks 41-60: Statistical Engine with `awk`.
+- [ ] **Final Project:** Developing a Bash-based Real-Time Security Monitoring Dashboard.
