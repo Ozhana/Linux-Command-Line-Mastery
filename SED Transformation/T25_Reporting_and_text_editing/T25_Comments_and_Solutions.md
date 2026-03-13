@@ -14,7 +14,17 @@
 
 ``` bash
 A.
-sed -Ee '/LOW/Id' -e 's/ID-([0-9]{1,4})/'\['ISSUE_#\1'\]'/' -e 's/SCAN_DATE: /\(CONFIDENTIAL\)/' -e '/^--- SCAN START ---$/,/^--- SCAN END ---$/ { /^--- SCAN START ---$/b; /^--- SCAN END ---$/b; s/.*/\U&/ }' g25_security_scan.txt
+sed -Ee '/LOW/Id' \
+-e 's/ID-([0-9]{1,4})/'\['ISSUE_#\1'\]'/' \
+-e 's/SCAN_DATE: /\(CONFIDENTIAL\)/' \
+-e '/^--- SCAN START ---$/,/^--- SCAN END ---$/ { /^--- SCAN START ---$/b; /^--- SCAN END ---$/b; s/.*/\U&/ }' g25_security_scan.txt
+
+B.
+A.
+sed -Ee '/LOW/Id' \
+-e 's/ID-([0-9]{1,4})/'\['ISSUE_#\1'\]'/' \
+-e 's/SCAN_DATE: /\(CONFIDENTIAL\)/' \
+-e'/^--- SCAN START ---$/,/^--- SCAN END ---$/ { /^--- SCAN START ---$/b; /^--- SCAN END ---$/b; y/abcdefghijklmnopqrstuvwxyz/ABCDEFGHIJKLMNOPQRSTUVWXYZ/ }' g25_security_scan.txt
 ```
 
 ``` bash
