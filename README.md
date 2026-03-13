@@ -55,6 +55,12 @@ The laboratory is organized into progressive levels of computational complexity:
 
 ---
 
+## 📈 Roadmap & Milestones
+- [x] **Milestone 1:** Tasks 01-25: Advanced Grep & Security Log Logic.
+- [x] **Milestone 2:** Tasks 26-40: Stream Transformation with `sed`.
+- [x] **Milestone 3:** Tasks 41-60: Statistical Engine with `awk`.
+- [x] **Final Project:** Developing a Bash-based Real-Time Security Monitoring Dashboard.
+
 ### 🛠️ Advanced Case Study: Security Report Transformation
 This lab demonstrates high-level text surgery using a dedicated `sed` script file to process complex security scans.
 
@@ -63,8 +69,3 @@ This lab demonstrates high-level text surgery using a dedicated `sed` script fil
 **The Solution:**
 ```bash
 sed -E -f final_report.sed g25_security_scan.txt > executive_summary.txt
-## 📈 Roadmap & Milestones
-- [x] **Milestone 1:** Tasks 01-20: Advanced Grep & Security Log Logic.
-- [x] **Milestone 2:** Tasks 20S-40: Stream Transformation with `sed`.
-- [x] **Milestone 3:** Tasks 41-60: Statistical Engine with `awk`.
-- [x] **Final Project:** Developing a Bash-based Real-Time Security Monitoring Dashboard.
