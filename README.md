@@ -55,6 +55,14 @@ The laboratory is organized into progressive levels of computational complexity:
 
 ---
 
+### 🛠️ Advanced Case Study: Security Report Transformation
+This lab demonstrates high-level text surgery using a dedicated `sed` script file to process complex security scans.
+
+**Scenario:** Transforming a raw security scan (`g25_security_scan.txt`) into an executive summary.
+
+**The Solution:**
+```bash
+sed -E -f final_report.sed g25_security_scan.txt > executive_summary.txt
 ## 📈 Roadmap & Milestones
 - [x] **Milestone 1:** Tasks 01-20: Advanced Grep & Security Log Logic.
 - [x] **Milestone 2:** Tasks 20S-40: Stream Transformation with `sed`.
