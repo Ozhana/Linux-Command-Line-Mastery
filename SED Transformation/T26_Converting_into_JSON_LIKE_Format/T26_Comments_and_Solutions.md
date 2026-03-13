@@ -14,5 +14,9 @@
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
-sed -E 's#^([0-9]{2}/[0-9]{2})/[0-9]{4}[[:space:]]\|[[:space:]]([^[:space:]]+)[[:space:]]\|[[:space:]]([^[:space:]]+)[[:space:]]\|[[:space:]]([0-9]+)[[:space:]]\|[[:space:]]ERR_CODE:[[:space:]]([0-9]{3})$#{"timestamp": "\1/XXXX", "user": "\2", "event": "\3", "risk_score": "\4", "err_code": "\5"}#' g26_raw_traffic.log
+sed -E 's#^([0-9]{2}/[0-9]{2})/[0-9]{4}[[:space:]]\|[[:space:]]\
+([^[:space:]]+)[[:space:]]\|[[:space:]]([^[:space:]]+)\
+[[:space:]]\|[[:space:]]([0-9]+)[[:space:]]\|[[:space:]]ERR_CODE:[[:space:]]([0-9]{3})$\
+#{"timestamp": "\1/XXXX", "user": "\2", "event": "\3", "risk_score": "\4", "err_code": "\5"}#'\
+g26_raw_traffic.log
 ```
