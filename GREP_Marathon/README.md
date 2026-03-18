@@ -4,6 +4,23 @@ Bu rehber, metin arama ve filtreleme işlemlerinde kullanılan `grep` aracının
 
 ---
 
+## 💡 Pratik Kullanım Senaryoları (Örnekler)
+
+Sık kullanılan bazı komut kombinasyonları ve açıklamaları:
+
+### 🔍 grep ile Arama Senaryoları
+
+* **Belirli bir kelimeyi (büyük/küçük harf bakmadan) arama:**
+    `grep -i "hata" log.txt`
+* **Bir dizindeki tüm dosyalarda recursive (özyinelemeli) arama:**
+    `grep -r "Dr. Ozhan Akdag" ./projeler/`
+* **Eşleşmeyen satırları filtreleme (Tersine arama):**
+    `grep -v "DEBUG" uygulama.log` (Sadece ERROR ve INFO satırlarını görmek için)
+* **Eşleşen satırın öncesini ve sonrasını görme (Context):**
+    `grep -C 3 "Kritik Hata" sistem.log` (Hatanın olduğu satırı ve 3 satır öncesi/sonrasını gösterir)
+
+---
+
 ## 🛠 Desen Seçimi ve Yorumlama (Pattern Selection)
 
 | Kısa Parametre | Uzun Parametre | Açıklama |
