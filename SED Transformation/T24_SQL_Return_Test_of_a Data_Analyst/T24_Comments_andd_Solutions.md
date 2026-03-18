@@ -2,7 +2,7 @@
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
 | ***### Difficulty Degree:*** 77.5/10 | ***### Zorluk duzeyi:*** 7.5/10|
-| SCENARIO:  | SENARYO: Freelance veri analisti olarak bir e-ticaret sitesinin ham satış verilerini (g24_sales.log) aldınız. Veriler çok karmaşık ve "kirli". Müşteri isimleri, satın alınan ürün kodları ve fiyatlar birbirine girmiş durumda. Sizden bu veriyi temizleyip bir "SQL Insert" sorgusu taslağına dönüştürmeniz isteniyor. |
+| SCENARIO: Raw sales data of an e-commerce site as a freelance data analyst (g24_sales.log) you got. The data is very complex and “dirty”. Customer names, purchased product codes and prices are intertwined. You are asked to clear this data and convert it into a draft "SQL Insert" query. | SENARYO: Freelance veri analisti olarak bir e-ticaret sitesinin ham satış verilerini (g24_sales.log) aldınız. Veriler çok karmaşık ve "kirli". Müşteri isimleri, satın alınan ürün kodları ve fiyatlar birbirine girmiş durumda. Sizden bu veriyi temizleyip bir "SQL Insert" sorgusu taslağına dönüştürmeniz isteniyor. |
 | **Step 1:** Prepare the data (or download from here).  | **Adım 1:** Data Olustur (veya buradan indir).  |
 | **Step 2:** MISSION | **Adım 2:** GOREV |
 | 1. History Transformation (YYYY-MM-DD): DD/MM/YYYY by capturing the dates in the format and changing their locations YYYY-MM-DD make it.
