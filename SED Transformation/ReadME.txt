@@ -1,47 +1,74 @@
-Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+# 🔍 GNU Grep Komut Rehberi
 
-  -n, --quiet, --silent
-                 suppress automatic printing of pattern space
-      --debug
-                 annotate program execution
-  -e script, --expression=script
-                 add the script to the commands to be executed
-  -f script-file, --file=script-file
-                 add the contents of script-file to the commands to be executed
-  --follow-symlinks
-                 follow symlinks when processing in place
-  -i[SUFFIX], --in-place[=SUFFIX]
-                 edit files in place (makes backup if SUFFIX supplied)
-  -c, --copy
-                 use copy instead of rename when shuffling files in -i mode
-  -b, --binary
-                 does nothing; for compatibility with WIN32/CYGWIN/MSDOS/EMX
-                 (open files in binary mode; CR+LF are not processed specially)
-  -l N, --line-length=N
-                 specify the desired line-wrap length for the `l' command
-  --posix
-                 disable all GNU extensions.
-  -E, -r, --regexp-extended
-                 use extended regular expressions in the script
-                 (for portability use POSIX -E).
-  -s, --separate
-                 consider files as separate rather than as a single,
-                 continuous long stream.
-      --sandbox
-                 operate in sandbox mode (disable e/r/w commands).
-  -u, --unbuffered
-                 load minimal amounts of data from the input files and flush
-                 the output buffers more often
-  -z, --null-data
-                 separate lines by NUL characters
-      --help     display this help and exit
-      --version  output version information and exit
+Bu rehber, metin arama ve filtreleme işlemlerinde kullanılan `grep` aracının en yaygın parametrelerini ve kullanım amaçlarını içermektedir.
 
-If no -e, --expression, -f, or --file option is given, then the first
-non-option argument is taken as the sed script to interpret.  All
-remaining arguments are names of input files; if no input files are
-specified, then the standard input is read.
+---
 
-GNU sed home page: <https://www.gnu.org/software/sed/>.
-General help using GNU software: <https://www.gnu.org/gethelp/>.
-E-mail bug reports to: <bug-sed@gnu.org>.
+## 🛠 Desen Seçimi ve Yorumlama (Pattern Selection)
+
+| Kısa Parametre | Uzun Parametre | Açıklama |
+| :--- | :--- | :--- |
+| `-E` | `--extended-regexp` | Uzatılmış düzenli ifadeleri (ERE) kullanır. |
+| `-F` | `--fixed-strings` | Desenleri düz metin (string) olarak kabul eder. |
+| `-G` | `--basic-regexp` | Temel düzenli ifadeleri (BRE) kullanır. |
+| `-P` | `--perl-regexp` | Perl uyumlu düzenli ifadeleri (PCRE) kullanır. |
+| `-e PATTERN` | `--regexp=PATTERN` | Belirtilen deseni eşleşme için kullanır. |
+| `-f FILE` | `--file=FILE` | Desenleri belirtilen dosyadan satır satır alır. |
+| `-i` | `--ignore-case` | Büyük/küçük harf ayrımını görmezden gelir. |
+| `-w` | `--word-regexp` | Sadece tam kelime eşleşmelerini bulur. |
+| `-x` | `--line-regexp` | Sadece satırın tamamıyla eşleşen durumları bulur. |
+| `-z` | `--null-data` | Satır sonunu yenisatır (`\n`) yerine `0` byte (null) olarak kabul eder. |
+
+---
+
+## ⚙️ Çıktı Kontrolü (Output Control)
+
+| Kısa Parametre | Uzun Parametre | Açıklama |
+| :--- | :--- | :--- |
+| `-n` | `--line-number` | Eşleşen satırın numarasını gösterir. |
+| `-m NUM` | `--max-count=NUM` | Belirlenen sayıda eşleşmeden sonra durur. |
+| `-v` | `--invert-match` | Eşleşmeyen (tersi) satırları seçer. |
+| `-c` | `--count` | Eşleşen toplam satır sayısını verir. |
+| `-o` | `--only-matching` | Sadece satırın eşleşen kısmını gösterir. |
+| `-l` | `--files-with-matches` | Sadece eşleşme içeren dosya isimlerini yazdırır. |
+| `-L` | `--files-without-match` | Eşleşme içermeyen dosya isimlerini yazdırır. |
+| `-h` | `--no-filename` | Çıktıda dosya isimlerini gizler. |
+| `-H` | `--with-filename` | Çıktıda dosya isimlerini her zaman gösterir. |
+| `-b` | `--byte-offset` | Eşleşmenin dosya içindeki byte konumunu gösterir. |
+
+---
+
+## 📂 Dosya ve Dizin Yönetimi
+
+| Kısa Parametre | Uzun Parametre | Açıklama |
+| :--- | :--- | :--- |
+| `-r` | `--recursive` | Alt dizinlerde de arama yapar. |
+| `-R` | `--dereference-recursive` | Sembolik linkleri takip ederek derinlemesine arama yapar. |
+| `-d ACTION` | `--directories=ACTION` | Dizinlerin nasıl işleneceğini belirler (`read`, `recurse`, `skip`). |
+| `--include=GLOB` | | Sadece belirtilen kalıba uygun dosyaları arar. |
+| `--exclude=GLOB` | | Belirtilen kalıba uyan dosyaları aramadan çıkarır. |
+| `--exclude-dir=GLOB` | | Belirtilen dizinleri arama kapsamı dışında tutar. |
+
+---
+
+## 📋 Bağlam Kontrolü (Context Control)
+
+Eşleşen satırın öncesini veya sonrasını görmek için kullanılır.
+
+| Kısa Parametre | Uzun Parametre | Açıklama |
+| :--- | :--- | :--- |
+| `-A NUM` | `--after-context=NUM` | Eşleşen satırdan sonraki `NUM` kadar satırı gösterir. |
+| `-B NUM` | `--before-context=NUM` | Eşleşen satırdan önceki `NUM` kadar satırı gösterir. |
+| `-C NUM` | `--context=NUM` | Eşleşen satırın hem öncesinden hem sonrasından satır gösterir. |
+| `--color[=WHEN]`| | Eşleşen kısımları renklendirir (`always`, `never`, `auto`). |
+
+---
+
+## 🛠 Çeşitli (Miscellaneous)
+
+* `-s, --no-messages`: Hata mesajlarını (okunmayan dosyalar vb.) gizler.
+* `-V, --version`: Versiyon bilgisini gösterir.
+* `--help`: Yardım metnini ekrana basar.
+
+---
+**Hazırlayan:** Dr. Ozhan Akdag
