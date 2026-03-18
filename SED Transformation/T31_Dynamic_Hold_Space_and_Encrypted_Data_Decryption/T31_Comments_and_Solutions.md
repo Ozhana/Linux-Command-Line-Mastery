@@ -34,4 +34,20 @@ Düzenli ifadelerde (Regex) belirli karakter gruplarını temsil etmek için kul
 | `[:punct:]` | `.,!?;:-` vb. | Noktalama işaretleri. | `[[:punct:]]` (Cümle sonu bulma) |
 | `[:blank:]` | `space`, `tab` | Sadece yatay boşluklar. | `[[:blank:]]` |
 
+---
+## 🔍 Örnek İnceleme: `[[:alpha:]_-]+`
+
+Bir Regex ifadesini parçalarına ayırarak nasıl çalıştığını anlayalım:
+
+* **`[`** : Bir karakter kümesi (character set) başlatır.
+* **`[:alpha:]`** : Tüm harfleri (A-Z, a-z) kabul eder.
+* **`_`** : Alt çizgiyi kabul eder.
+* **`-`** : Tire (hyphen) karakterini kabul eder.
+* **`]`** : Karakter kümesini sonlandırır.
+* **`+`** : Bu kümedeki karakterlerden **en az bir veya daha fazlasının** art arda gelebileceğini belirtir.
+
+> **Not:** Karakter sınıflarını bir küme içinde kullanırken köşeli parantezlerin çift olduğuna dikkat edin: `[[:alpha:]]`.
+
+---
+
 > **Not:** Bu sınıfları `grep` veya `sed` içerisinde kullanırken köşeli parantez içinde kullanmayı unutmayın: `[[:alpha:]]`.
