@@ -1,3 +1,10 @@
+"""
+SCURITY GENERATOR ENGINE v1.0
+Author: Dr. Ozhan Akdag
+Description: Generates synthetic system logs for terminal-based 
+data manipulation training.
+"""
+
 import random
 
 def generate_g26_data():
