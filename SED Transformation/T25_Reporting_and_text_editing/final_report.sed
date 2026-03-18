@@ -1,15 +1,17 @@
-# 1. Low seviyeli bulguları sil
-/LOW/Id
+# FINAL REPORT GENERATION SCRIPT
+# Author: Dr. Ozhan Akdag
+# Description: Professional log scrubbing and reformatting
 
-# 2. ID formatını değiştir (Tırnak kullanma, doğrudan köşeli parantez yaz)
-s/ID-([0-9]{1,3})/[ISSUE_#\1]/
+# 1. Remove Low Priority Data
+/LEVEL: Low/d
 
-# 3. SCAN_DATE kısmını temizle ve yanına notu ekle
-s/SCAN_DATE: ([0-9/]+)/\1 (CONFIDENTIAL)/
+# 2. Reformat ID to Issue Tracker Format (using Back-references)
+s/ID-([0-9]+)/[ISSUE_#\1]/g
 
-# 4. START ve END arasındaki her şeyi büyük harfe çevir
-/^--- SCAN START ---$/,/^--- SCAN END ---$/ {
-    /^--- SCAN START ---$/b
-    /^--- SCAN END ---$/b
-    s/.*/\U&/
+# 3. Label Sensitive Data: Mask SCAN_DATE and add Confidentiality tag
+s/^SCAN_DATE: ([0-9\/]+)/\1 (CONFIDENTIAL)/
+
+# 4. Range Processing: Transform text between START and END to UPPERCASE
+/--- SCAN START ---/,/--- SCAN END ---/ {
+    /--- SCAN (START|END) ---/! s/.*/\U&/
 }
