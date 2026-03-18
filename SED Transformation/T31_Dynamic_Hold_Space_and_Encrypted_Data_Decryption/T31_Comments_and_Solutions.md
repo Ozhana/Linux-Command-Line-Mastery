@@ -18,6 +18,7 @@ sed -E '/KEY:/h; /VALUE:/{G; s/\n/  /}; /IGNORE/Id; /TRASH/Id; /^KEY:/d; s/VALU
 
 sed -nE '/KEY:/h; /VALUE:/{G; s/\n/ /gp}' g31_obfuscated.log | sed -E 's/VALUE:[[:space:]]+([[:alpha:]_]+)[[:space:]]+KEY:[[:space:]]+([[:alpha:]_]+)[[:space:]]*$/ENTRY -> \2 \| DATA -> \1/g'
 ```
+
 ## 🧩 POSIX Karakter Sınıfları Rehberi
 
 Düzenli ifadelerde (Regex) belirli karakter gruplarını temsil etmek için kullanılan standart sınıflar ve kullanım örnekleri aşağıdadır:
