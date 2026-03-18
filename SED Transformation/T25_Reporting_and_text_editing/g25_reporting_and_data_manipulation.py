@@ -1,3 +1,10 @@
+"""
+SECURITY LOG GENERATOR ENGINE v1.0
+Author: Dr. Ozhan Akdag
+Description: Generates Security logs for terminal-based 
+data manipulation training.
+"""
+
 import random
 
 def generate_g25_data():
