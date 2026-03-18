@@ -1,3 +1,10 @@
+"""
+SALES REPORT GENERATOR ENGINE v1.0
+Author: Dr. Ozhan Akdag
+Description: Generates sales report for terminal-based 
+data manipulation training.
+"""
+
 import random
 
 def generate_g24_data():
