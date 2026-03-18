@@ -1,16 +1,24 @@
 # INSTRUCTIONS IN ENGLISH ------ GOREVLENDIRME TURKCE
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
-| ***### Difficulty Degree:*** 4.5/10 | ***### Zorluk duzeyi:*** 4.5/10|
-| SCENARIO: Logs from a Java applet (g28_stacktrace.log) very messy. Each process is spread over 3 lines: <br><br>Line: Time and Process ID<br><br>Line: User Information<br><br>Line: Transaction Result
-As a data analyst, you want to see each transaction in a single line (like CSV). | SENARYO:  |
+| ***### Difficulty Degree:*** 9.5/10 | ***### Zorluk duzeyi:*** 9.5/10|
+| SCENARIO: Logs from a Java applet (g28_stacktrace.log) very messy. Each process is spread over 3 lines: <br><br>Line: Time and Process ID<br><br>Line: User Information<br><br>Line: Transaction Result<br><br>As a data analyst, you want to see each transaction in a single line (like CSV). | SENARYO: Bir Java uygulamasından gelen loglar (g28_stacktrace.log) çok dağınık. Her işlem 3 satıra yayılmış:<br><br>Satır: Zaman ve İşlem ID<br><br>Satır: Kullanıcı Bilgisi<br><br>Satır: İşlem Sonucu <br>Siz bir veri analisti olarak her işlemi tek bir satırda (CSV gibi) görmek istiyorsunuz |
 | **Step 1:** Prepare the data (or download from here).  | **Adım 1:** Data Olustur (veya buradan indir).  |
 | **Step 2:** MISSION | **Adım 2:** GOREV |
-|  |  |
+| 1. N (Next) Command Usage: N investigate command. sedAllows to pull the next row next to the current row.<br><br>2. Merge: Make 3 lines into one line. Comma between them (,) sheep.<br><br>3. Cleaning: At the beginning of the lines TIME:, the USER:, the RESULT: delete their tags, leaving only the data.<br><br>4. Filtering: Just the result SUCCESS include the combined lines in your report. <br><br>5. Challenging Part: Delete the seconds information (SS in HH: MM: SS) from the timestamp. | 1. N (Next) Komutu Kullanımı: N komutunu araştırın. sed'in bir sonraki satırı mevcut satırın yanına çekmesini sağlar.<br><br>2. Birleştirme: 3 satırı tek satır haline getirin. Aralarına virgül (,) koyun. <br><br>3. Temizlik: Satır başlarındaki TIME:, USER:, RESULT: etiketlerini silin, sadece veriler kalsın. <br><br>4. Filtreleme: Sadece sonucu SUCCESS olan birleşik satırları raporunuza dahil edin.<br><br>5. Zorlayıcı Kısım: Zaman damgasındaki saniye bilgisini (HH:MM:SS içindeki SS) silin. |
 | Golden Information: | Altin Bilgi: |
-|  |  |
+| sed 'N;N;s/\n/,/g' the command reads 3 lines, the end of line characters in between (\n) turns into a comma. This is the most professional method for “flattening” (flattening) multiline data. |  |
+| Analytical Question: | Analitik soru: |
+| It has a 3-line structure N;N; when we use it, sedHow does the row counter of proceed? After combining 1-2-3, does it move to line 2 or jump to line 4? Will this cause data loss? |  |
+| Anwer: | Cevap: |
+| What I ask is "How does the row counter proceed?" the answer to the question is:
+N its command adds the next line to the current "Pattern Space" and increments the line counter by one. If N; N; if you say, sed He reads line 1, then pulls 2 to his side, then pulls 3 to his side. When the process is finished sed Jumps to line 4. <br><br>Why No Data Loss?
+Because sed acts wisely. It considers the joined lines "processed" and positions the cursor on a clean line (line 4) in the next loop. In this way, each 3-line block is processed in isolation. | Sorduğum "Satır sayacı nasıl ilerler?" sorusunun cevabı şudur:
+N komutu, bir sonraki satırı mevcut "Pattern Space"e ekler ve satır sayacını bir artırır. Eğer N; N; derseniz, sed 1. satırı okur, sonra 2'yi yanına çeker, sonra 3'ü yanına çeker. İşlem bittiğinde sed 4. satıra atlar. <br><br>Neden Veri Kaybı Olmaz?
+Çünkü sed akıllıca davranır. Birleştirdiği satırları "işlenmiş" kabul eder ve bir sonraki döngüde imleci temiz bir satıra (4. satır) konumlandırır. Bu sayede her 3 satırlık blok kendi içinde izole bir şekilde işlenir. |
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
+sed -Ee 'N;s/\n/, /; N;s/\n/$/; s/TIME: //g; s/ID: //g; s/USER: //g; /SUCCESS/!d; s/([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2})/\1:\2/g' g28_stacktrace.log
 
 ```
