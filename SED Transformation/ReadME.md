@@ -4,6 +4,25 @@
 
 ---
 
+### ✍️ sed ile Düzenleme Senaryoları
+
+* **Metin Değiştirme (Substitute):**
+    `sed 's/eski_kelime/yeni_kelime/g' dosya.txt` (Tüm eşleşmeleri değiştirir)
+* **Belirli bir satırı silme (Örn: 5. satır):**
+    `sed '5d' liste.txt`
+* **Dosyayı kalıcı olarak (yerinde) değiştirme:**
+    `sed -i 's/taslak/final/g' rapor.md`
+* **Sadece belirli bir aralığı yazdırma:**
+    `sed -n '10,20p' veri.csv` (Sadece 10 ile 20. satırlar arasını ekrana basar)
+
+---
+
+### ⛓️ Zincirleme Kullanım (Pipe)
+
+Grep ve Sed'in gücü birleştiğinde ortaya çıkar:
+`cat veri.txt | grep "Ogrenci" | sed 's/Ogrenci/Aday/g'`
+*(Veriyi oku, içinde "Ogrenci" geçenleri bul ve onları "Aday" olarak değiştir)*
+
 ## 🚀 Temel Çalışma Modları
 
 | Kısa Parametre | Uzun Parametre | Açıklama |
