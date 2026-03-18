@@ -1,3 +1,10 @@
+"""
+STUDENT DATA GENERATOR ENGINE v1.0
+Author: Dr. Ozhan Akdag
+Description: Generates fake student data for terminal-based 
+data manipulation training.
+"""
+
 import random
 
 def generate_g23_data():
