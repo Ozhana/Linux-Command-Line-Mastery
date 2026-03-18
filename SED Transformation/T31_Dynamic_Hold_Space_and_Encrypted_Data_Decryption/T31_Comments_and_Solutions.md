@@ -18,6 +18,19 @@ sed -E '/KEY:/h; /VALUE:/{G; s/\n/  /}; /IGNORE/Id; /TRASH/Id; /^KEY:/d; s/VALU
 
 sed -nE '/KEY:/h; /VALUE:/{G; s/\n/ /gp}' g31_obfuscated.log | sed -E 's/VALUE:[[:space:]]+([[:alpha:]_]+)[[:space:]]+KEY:[[:space:]]+([[:alpha:]_]+)[[:space:]]*$/ENTRY -> \2 \| DATA -> \1/g'
 ```
-``` bash
-ClassIn returnDescriptionExample Usage[:alpha:]A-Za-zJust letters.[[:alpha:]]+(Captures words)[:alnum:]A-Za-z0-9Letters and Numbers.[[:alnum:]]+(Captures IDs)[:digit:]0-9Just numbers.[[:digit:]]{3}(3 digit number)[:lower:]a-zJust lowercase letters.[[:lower:]]+[:upper:]A-ZCapital letters only.[[:upper:]]+[:space:]\t\n\v\f\rAll kinds of gaps.[[:space:]]+[:punct:].,!?;:-etc.Punctuation.[[:punct:]](Finding sentence end)[:blank:]spaceand the tabHorizontal spaces only.[[:blank:]]
-```
+## 🧩 POSIX Karakter Sınıfları Rehberi
+
+Düzenli ifadelerde (Regex) belirli karakter gruplarını temsil etmek için kullanılan standart sınıflar ve kullanım örnekleri aşağıdadır:
+
+| Sınıf | Karşılığı | Açıklama | Örnek Kullanım |
+| :--- | :--- | :--- | :--- |
+| `[:alpha:]` | `A-Za-z` | Sadece harfler. | `[[:alpha:]]+` (Kelimeleri yakalar) |
+| `[:alnum:]` | `A-Za-z0-9` | Harfler ve sayılar. | `[[:alnum:]]+` (ID'leri yakalar) |
+| `[:digit:]` | `0-9` | Sadece rakamlar. | `[[:digit:]]{3}` (3 basamaklı sayı) |
+| `[:lower:]` | `a-z` | Sadece küçük harfler. | `[[:lower:]]+` |
+| `[:upper:]` | `A-Z` | Sadece büyük harfler. | `[[:upper:]]+` |
+| `[:space:]` | `\t\n\v\f\r` | Tüm boşluk türleri (Tab, satır sonu vb.). | `[[:space:]]+` |
+| `[:punct:]` | `.,!?;:-` vb. | Noktalama işaretleri. | `[[:punct:]]` (Cümle sonu bulma) |
+| `[:blank:]` | `space`, `tab` | Sadece yatay boşluklar. | `[[:blank:]]` |
+
+> **Not:** Bu sınıfları `grep` veya `sed` içerisinde kullanırken köşeli parantez içinde kullanmayı unutmayın: `[[:alpha:]]`.
