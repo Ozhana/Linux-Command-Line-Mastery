@@ -1,3 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+The Mathematical Lab Bench
+---------------------------
+Project Author: Dr. Ozhan Akdag
+Academic Role: PhD in Mathematics & PhD in Education
+License: MIT License
+Created: 2026
+
+Description: Part of a comprehensive mathematical computational laboratory.
+"""
+
 import random
 
 users = [f"USER_{i:02d}" for i in range(10, 30)]

@@ -1,3 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+The Mathematical Lab Bench
+---------------------------
+Project Author: Dr. Ozhan Akdag
+Academic Role: PhD in Mathematics & PhD in Education
+License: MIT License
+Created: 2026
+
+Description: Part of a comprehensive mathematical computational laboratory.
+"""
+
 import random
 
 ips = ["192.168.1.1", "10.0.0.5", "172.16.0.10"]
