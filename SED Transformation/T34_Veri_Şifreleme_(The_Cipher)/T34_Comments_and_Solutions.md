@@ -1,7 +1,7 @@
 # INSTRUCTIONS IN ENGLISH ------ GOREVLENDIRME TURKCE
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
-| ***### Difficulty Degree:*** 10/10 | ***### Zorluk duzeyi:*** 10/10|
+| ***### Difficulty Degree:*** 7/10 | ***### Zorluk duzeyi:*** 7/10|
 | SCENARIO: You have a secret message in your hand (g34_secret.txt). You are asked to scroll this message with a simple "Caesar Encryption" (ROT1) logic. Well; A when you see it B, the B when you see it C a system that will. | SENARYO: Elinizde gizli bir mesaj var (g34_secret.txt). Sizden bu mesajı basit bir "Sezar Şifrelemesi" (ROT1) mantığıyla kaydırmanız isteniyor. Yani; A gördüğünde B, B gördüğünde C yapacak bir sistem. |
 | **Step 1:** Prepare the data (or download from here).  | **Adım 1:** Data Olustur (veya buradan indir).  |
 | **Step 2:** MISSION | **Adım 2:** GOREV |
