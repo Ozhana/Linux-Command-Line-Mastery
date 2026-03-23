@@ -11,9 +11,7 @@
 | Analytical Question: | Analitik Soru: |
 | If there was a space in the sensor name (Ex: Living Room Temp), in your regex (.*) could it be dangerous to use? Where does "greedy" (greedy) regex behavior cause us to make mistakes when breaking down this data? | Eğer sensör isminde de boşluk olsaydı (Örn: Living Room Temp), sizin regex'inizde (.*) kullanımı tehlikeli olabilir miydi? "Greedy" (açgözlü) regex davranışı, bu veriyi parçalarken nerede hata yapmamıza sebep olur? |
 | Answer of Analytical Question: | Analitik Sorunun Cevabi: |
-| What I ask is "What would happen if there was a gap in the sensor name?" the answer to the question is:
-If in regex (.*) if you use, sed it goes all the way to the very end of the line and then comes back looking for matches. If there is a space in the sensor name and you (.*) if you try to capture with (regex that space or the next two points:) the group may be surprised to get the limit. | Sorduğum "Sensör isminde boşluk olsaydı ne olurdu?" sorusunun cevabı şudur:
-Eğer regex içinde (.*) kullanırsanız, sed satırın en sonuna kadar gider ve sonra geri gelerek eşleşme arar. Eğer sensör isminde boşluk varsa ve siz (.*) ile yakalamaya çalışırsanız, regex o boşluğu mu yoksa bir sonraki iki noktayı mı (:) grup sınırı alacağını şaşırabilir. |
+| What I ask is "What would happen if there was a gap in the sensor name?" the answer to the question is:<br><br>If in regex (.*) if you use, sed it goes all the way to the very end of the line and then comes back looking for matches. If there is a space in the sensor name and you (.*) if you try to capture with (regex that space or the next two points:) the group may be surprised to get the limit. | Sorduğum "Sensör isminde boşluk olsaydı ne olurdu?" sorusunun cevabı şudur:<br><br>Eğer regex içinde (.*) kullanırsanız, sed satırın en sonuna kadar gider ve sonra geri gelerek eşleşme arar. Eğer sensör isminde boşluk varsa ve siz (.*) ile yakalamaya çalışırsanız, regex o boşluğu mu yoksa bir sonraki iki noktayı mı (:) grup sınırı alacağını şaşırabilir. |
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
