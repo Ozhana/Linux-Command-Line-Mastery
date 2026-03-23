@@ -15,5 +15,7 @@
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
-sed -Ee 's/^\[([0-9:]+)\][[:space:]-]+([[:alpha:]_0-9]+):[[:space:]]+([0-9.]+)[[:space:]]+\(([[:alpha:]]+)\)/\U\2 | \3 | \4 | [\1]/' g35_sensors.csv
+sed -Ee 's/^\[([0-9:]+)\][[:space:]-]+([[:alpha:]_0-9]+):\
+[[:space:]]+([0-9.]+)[[:space:]]+\(([[:alpha:]]+)\)/\
+\U\2 | \3 | \4 | [\1]/' g35_sensors.csv
 ```
