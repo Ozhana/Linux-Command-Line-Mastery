@@ -15,5 +15,5 @@
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
-
+echo "Dr. Ozhan Akdag - Code: 99-AZ" | sed 'y/123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/234567891bcdefghijklmnopqrstuvwxyzaBCDEFGHIJKLMNOPQRSTUVWXYZA/'
 ```
