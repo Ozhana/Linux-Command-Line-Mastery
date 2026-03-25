@@ -9,5 +9,6 @@
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
+sed -Ee 's/^USER:[[:space:]]+(.*)[[:space:]]+\|[[:space:]]+IP:[[:space:]]+(.*)[[:space:]]+\|[[:space:]]+ROLE:[[:space:]]+(.*)$/\3 -> \1 \(IP: \2\)/g; /192./s/$/ LOCAL_ACCESS/g;/ERROR/{N; /CODE:[[:space:]]+404/s/\n/ /}' -e '1i --- START OF AUDIT: - ($(date +%F\\%T)) ---' -e "\$a --- END OF REPORT --- ($(date +%F %T))" -e '/Trash/Id' -e '/DEBUG/Id' g40_final_exam.log | sed "/--- ()/s/--- ()/--- $(date)/"
 
 ```
