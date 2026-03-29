@@ -2,16 +2,16 @@
 | English Instructions | Türkçe Talimatlar |
 | :--- | :--- |
 | ***### Difficulty Degree:*** 4.5/10 | ***### Zorluk duzeyi:*** 4.5/10|
-| SCENARIO:  | SENARYO: Elimizde bir okulun sinav_sonuclari.txt dosyası var. Dosyada öğrenci adı, matematik notu, fizik notu ve kimya notu bulunuyor. |
+| SCENARIO: We have a school in our hands sinav_sonuclari.txt has file. The file contains the student's name, mathematics grade, physics grade and chemistry grade. | SENARYO: Elimizde bir okulun sinav_sonuclari.txt dosyası var. Dosyada öğrenci adı, matematik notu, fizik notu ve kimya notu bulunuyor. |
 | **Step 1:** Prepare the data (or download from here).  | **Adım 1:** Data Olustur (veya buradan indir).  |
 | **Step 2:** MISSION | **Adım 2:** GOREV |
-|  | 1. Verideki başlık satırını (ilk satırı) atla.<br><br> 2. Her öğrencinin 3 dersinin ortalamasını hesapla ve isminin yanına yazdır. <br><br>3. Eğer ortalaması 85 ve üzerindeyse satırın sonuna "BAŞARILI" ibaresi ekle.<br><br>4. En alt kısımda (END bloğunda) tüm sınıfın genel matematik ortalamasını hesaplayıp yazdır. |
+| 1. Skip the header line (first line) in the data. <br><br>2. Calculate the average of each student's 3 lessons and write them next to their name. <br><br>3. If the average is 85 or above, add "SUCCESSFUL" at the end of the line. <br><br>4. At the bottom (END block), calculate the general math average of the entire class and print it. | 1. Verideki başlık satırını (ilk satırı) atla.<br><br> 2. Her öğrencinin 3 dersinin ortalamasını hesapla ve isminin yanına yazdır. <br><br>3. Eğer ortalaması 85 ve üzerindeyse satırın sonuna "BAŞARILI" ibaresi ekle.<br><br>4. En alt kısımda (END bloğunda) tüm sınıfın genel matematik ortalamasını hesaplayıp yazdır. |
 | Golden Information: | Altin Bilgi: |
 |  |  |
 | Analytical Question: | Analitik Soru: |
-|  | AWK'ın END bloğu çalışırken, $1 değişkeninin değerini yazdırmayı denersen ne görürsün? |
+| AWK's END while the blog is working, $1 what do you see if you try to print the value of your variable? ( | AWK'ın END bloğu çalışırken, $1 değişkeninin değerini yazdırmayı denersen ne görürsün? |
 | Answer of Analytical Question: | Analitik Sorunun Cevabi: |
-|  | AWK'ın END bloğuna ulaştığında $1 (veya $0, $NF gibi tüm alan değişkenleri), dosyanın en son okunan satırındaki değerleri tutmaya devam eder. |
+| AWK's END when you reach your blog $1 (or $0, the $NF all field variables such as), values of the file in the last read line it continues to hold. | AWK'ın END bloğuna ulaştığında $1 (veya $0, $NF gibi tüm alan değişkenleri), dosyanın en son okunan satırındaki değerleri tutmaya devam eder. |
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
