@@ -9,9 +9,9 @@
 | Golden Information: | Altin Bilgi: |
 | 1. $1, $2, ... $NF: Field variables. $NF always last one gives column.<br><br>2. NR: (Number of Records) The number of the currently processed line.<br><br>3. NF: (Number of Fields) The total number of columns in that row.<br><br>4. printf: To print data in aligned and professional format (as in C language). | 1. $1, $2, ... $NF: Alan değişkenleri. $NF her zaman sonuncu sütunu verir.<br><br>2. NR: (Number of Records) O an işlenen satırın numarası.<br><br>3. NF: (Number of Fields) O satırdaki toplam sütun sayısı.<br><br>4. printf: Veriyi hizalı ve profesyonel formatta yazdırmak için (C dilindeki gibi). |
 | Analytical Question: | Analitik Soru: |
-|  | Eğer dosyadaki sütun ayırıcı boşluk değil de virgül (CSV) olsaydı, AWK'a bunu nasıl söylerdin? |
+| If the column separator in the file was a comma (CSV) and not a space, how would you tell AWK that? | Eğer dosyadaki sütun ayırıcı boşluk değil de virgül (CSV) olsaydı, AWK'a bunu nasıl söylerdin? |
 | Answer of Analytical Question: | Analitik Sorunun Cevabi: |
-|  | Soru: Virgül (CSV) olsaydı ne yapardık? <br><br>Cevap: İki yolun var. Ya komutu çalıştırırken -F"," parametresini eklersin ya da BEGIN bloğu içine FS="," (Field Separator) yazarsın. |
+| You have two ways. Either while running the command -F"," you add the parameter or BEGIN into the block FS="," You write (Field Separator). | Soru: Virgül (CSV) olsaydı ne yapardık? <br><br>Cevap: İki yolun var. Ya komutu çalıştırırken -F"," parametresini eklersin ya da BEGIN bloğu içine FS="," (Field Separator) yazarsın. |
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
