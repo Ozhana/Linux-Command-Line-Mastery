@@ -5,21 +5,13 @@
 | SCENARIO:  | SENARYO: AWK'ın sadece bir4. metin süzücü değil, aynı zamanda terminalde çalışan bir hesap makinesi olduğunu kanıtlama vakti. Bu görevde bir veri analisti olarak bir öğrenci grubunun sınav sonuçlarını analiz edeceksin. <br><br>Eğitim verdiğin Robotics Club'daki öğrencilerin Python ve Arduino sınav sonuçlarını içeren bir CSV dosyan var. Bu dosya üzerinde karmaşık hesaplamalar (ortalama, geçme/kalma durumu, sınıf birincisi) yapman gerekiyor. |
 | **Step 1:** Prepare the data (or download from here).  | **Adım 1:** Data Olustur (veya buradan indir).  |
 | **Step 2:** MISSION | **Adım 2:** GOREV |
-|  | 1. Ayrıştırıcı Ayarı: Dosya virgülle ayrıldığı için FS (Field Separator) değerini , olarak ayarla (Bunu ister BEGIN içinde yap, ister komut satırında -F, ile).
-
-2. Genel Ortalama: Her öğrenci için 3 dersin ortalamasını hesapla. Eğer ortalama 50'nin altındaysa satırın başına "KALDI", üstündeyse "GECTI" yazdır.
-
-3. Başarı Puanı: Ortalama hesaplanırken ağırlıklandırılmış puan kullan: Math %40, Physics %30, Robotics %30 olsun.
-
-4. Sınıf Ortalaması: Tüm sınıfın genel ortalamasını END bloğunda yazdır.
-
-5. Varyans Hazırlığı: END bloğunda sadece ortalamayı değil, en yüksek ortalamaya sahip öğrencinin adını ve notunu da yazdır. (Burada bir değişken tutup her satırda if (su_anki > max) kontrolü yapmalısın). |
+|  | 1. Ayrıştırıcı Ayarı: Dosya virgülle ayrıldığı için FS (Field Separator) değerini , olarak ayarla (Bunu ister BEGIN içinde yap, ister komut satırında -F, ile).<br><br>2. Genel Ortalama: Her öğrenci için 3 dersin ortalamasını hesapla. Eğer ortalama 50'nin altındaysa satırın başına "KALDI", üstündeyse "GECTI" yazdır.<br><br>3. Başarı Puanı: Ortalama hesaplanırken ağırlıklandırılmış puan kullan: Math %40, Physics %30, Robotics %30 olsun.<br><br>4. Sınıf Ortalaması: Tüm sınıfın genel ortalamasını END bloğunda yazdır. <br><br>5. Varyans Hazırlığı: END bloğunda sadece ortalamayı değil, en yüksek ortalamaya sahip öğrencinin adını ve notunu da yazdır. (Burada bir değişken tutup her satırda if (su_anki > max) kontrolü yapmalısın). |
 | Golden Information: | Altin Bilgi: |
 |  | AWK'da ^ operatörü üs alma için kullanılır. (x^2) gibi. Eğer standart sapma hesaplamak istersen bu senin çok işine yarayacak. |
 | Analytical Question: | Analitik Soru: |
 |  | AWK içinde NR (toplam satır sayısı) ve FNR (dosya bazlı satır sayısı) arasındaki fark nedir? Birden fazla dosyayı aynı anda işlerken hangisini kullanmalısın? |
 | Answer of Analytical Question: | Analitik Sorunun Cevabi: |
-|  |  |
+|  | Geçtiğimiz görevde sorduğum NR ve FNR farkına dair:<br><br>NR (Number of Records): AWK çalışmaya başladığından beri okuduğu toplam satır sayısıdır.<br><br>FNR (File Number of Records): O an okunan mevcut dosyadaki satır sayısıdır.<br><br>Örnek: 10'ar satırlık iki dosyayı işliyorsan; ikinci dosyanın ilk satırında NR 11 olurken, FNR tekrar 1 olur. Bu, birden fazla dosyayı karşılaştırırken (örneğin iki farklı sınıftaki aynı isimli öğrencileri eşleştirirken) hayat kurtarır. |
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
