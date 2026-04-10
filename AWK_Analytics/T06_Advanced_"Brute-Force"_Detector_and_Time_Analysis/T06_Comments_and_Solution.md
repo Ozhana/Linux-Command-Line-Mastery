@@ -15,42 +15,53 @@
 | **Step 3:* SOLUTION | **Adım 3:** CEVAP |
 
 ``` bash
+function to_second(p){
+    split(p, a, ":");
+    return a[1]*3600 + a[2]*60 + a[3];
+}
+
 BEGIN {
-    printf "%-28s | %-10s | %-20s | %-10s \n", "DURUM", "SANIYE", "HEDEF (USER->IP)", "ATAK";
+    printf "%-25s | %-10s | %-25s | %-10s \n", "DURUM", "ZAMAN", "HEDEF (USER->IP)", "ATAK";
     print "--------------------------------------------------------------------------------"
-    toplam_saldiri = 0;
 }
 
 {
-    # $1: Saniye, $2: Orijinal Zaman, $8: User, $10: IP (to_second eklediğimiz için sütunlar kaydı)
-    # Saniyeyi anahtar yaparak her saniyedeki veriyi biriktirelim
-    saldiri_sayisi[$1]++;
-    toplam_saldiri++;
+    # Log formatını parçala: "12:00:10 sshd: Failed password for root from 192.168.1.1"
+    # Saniyeye çevirip 'key' yapıyoruz.
+    saniye = to_second($1)
     
-    # Zaman bilgisini de bir dizide saklayalım ki END bloğunda basalım
-    zaman_etiketi[$1] = $2;
-    hedef_bilgisi[$1] = $8 " -> " $10;
+    # Verileri saniye bazlı dizilerde biriktiriyoruz
+    saldiri_sayisi[saniye]++
+    zaman_etiketi[saniye] = $1
     
-    # UNIQUE IP SAYMA (İşte aradığın çözüm):
-    ips[$10] = 1; 
+    # Dinamik IP ve User bulma (Sütun kaymasından etkilenmez)
+    for(i=1; i<=NF; i++) {
+        if ($i == "from") current_ip = $(i+1)
+        if ($i == "for") current_user = $(i+1)
+    }
+    
+    hedef_bilgisi[saniye] = current_user " -> " current_ip
+    ips[current_ip] = 1
 }
 
 END {
-    unique_ip_sayisi = 0;
-    for (i in ips) { unique_ip_sayisi++ }
-
-    for (k in saldiri_sayisi) {
-        status = (saldiri_sayisi[k] >= 3) ? "KRITIK: Brute-Force!" : "NORMAL";
-        printf "%-28s | %-10s | %-20s | %-10d \n", status, zaman_etiketi[k], hedef_bilgisi[k], saldiri_sayisi[k];
+    # UNIQUE IP SAYMA (Senin düzelttiğin gibi döngü içinde)
+    unique_count = 0
+    for (addr in ips) {
+        unique_count++
     }
+
+    # SIRALAMA ÇÖZÜMÜ:
+    # Dizilerdeki saniyeleri küçükten büyüğe basmak için çıktıyı 
+    # END bloğu içinde tek bir pipe'a gönderiyoruz.
+    for (s in saldiri_sayisi) {
+        status = (saldiri_sayisi[s] >= 3) ? "KRITIK: Brute-Force!" : "NORMAL";
+        # Tüm döngü çıktısını topluca sort'a gönderiyoruz
+        printf "%-25s | %-10s | %-25s | %-10d \n", status, zaman_etiketi[s], hedef_bilgisi[s], saldiri_sayisi[s] | "sort -nk3" 
+    }
+    close("sort -nk3") # Boruyu kapatmazsak alt kısımla karışabilir
 
     print "--------------------------------------------------------------------------------"
-    print "Toplam Saldırı Sayısı       : " toplam_saldiri;
-    print "Eşsiz (Unique) Saldırgan IP : " unique_ip_sayisi;
-    
-    # Matematikçi Bonus:
-    if (unique_ip_sayisi > 0) {
-        printf "Saldırgan Başına Ortalama   : %.2f\n", toplam_saldiri / unique_ip_sayisi;
-    }
+    printf "Eşsiz (Unique) Saldırgan IP : %d\n", unique_count;
 }
 ```
