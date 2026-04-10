@@ -24,22 +24,22 @@ This roadmap is divided into 4 strategic phases, designed to transform a termina
 - [x] **18:** Looping Structures (`for`, `while`)
 - [x] **19:** Working with Multiple Files (`NR == FNR` Logic)
 - [x] **20:** Passing External Variables (`-v`)
-- [ ] **21-30:** Advanced Pattern Ranges, Next/Exit commands, and System Integration.
+- [x] **21-30:** Advanced Pattern Ranges, Next/Exit commands, and System Integration.
 
 ### 📍 Phase 3: Advanced Data Structures (Lessons 31-45)
 - [x] **31:** User-Defined Functions (`function`)
 - [x] **32:** Associative Arrays (The heart of AWK)
-- [ ] **33:** Multidimensional Arrays (Matrix Processing)
-- [ ] **34:** String Manipulation Functions (`split`, `substr`, `gsub`)
-- [ ] **35:** Mathematical Functions (`sin`, `cos`, `sqrt`, `rand`)
-- [ ] **36-45:** Data Cleaning techniques, Handling Anomalies, and Pivot Table Simulations.
+- [x] **33:** Multidimensional Arrays (Matrix Processing)
+- [x] **34:** String Manipulation Functions (`split`, `substr`, `gsub`)
+- [x] **35:** Mathematical Functions (`sin`, `cos`, `sqrt`, `rand`)
+- [x] **36-45:** Data Cleaning techniques, Handling Anomalies, and Pivot Table Simulations.
 
 ### 📍 Phase 4: Expert Level & Real-World Projects (Lessons 46-60)
-- [ ] **46:** Network Log Analysis (Security Auditing)
-- [ ] **47:** Financial Report Generation
-- [ ] **48:** Integrating AWK with Shell Scripts
-- [ ] **49:** Performance Tuning for Giga-Scale Files
-- [ ] **60:** **Final Capstone:** Building a complete CLI Data Dashboard.
+- [x] **46:** Network Log Analysis (Security Auditing)
+- [x] **47:** Financial Report Generation
+- [x] **48:** Integrating AWK with Shell Scripts
+- [x] **49:** Performance Tuning for Giga-Scale Files
+- [x] **60:** **Final Capstone:** Building a complete CLI Data Dashboard.
 
 ---
 
