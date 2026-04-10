@@ -1,0 +1,1045 @@
+ID: 1001
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1002
+Cihaz: ThinkPad
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1003
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1004
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1005
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1006
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1007
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1008
+Cihaz: Raspberry_Pi_5
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1009
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1010
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1011
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1012
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1013
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1014
+Cihaz: Raspberry_Pi_5
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1015
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1016
+Cihaz: ThinkPad
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1017
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1018
+Cihaz: ThinkPad
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1019
+Cihaz: Raspberry_Pi_5
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1020
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1021
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1022
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1023
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1024
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1025
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1026
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1027
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1028
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1029
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1030
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1031
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1032
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1033
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1034
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1035
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1036
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1037
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1038
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1039
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1040
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1041
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1042
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1043
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1044
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1045
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1046
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1047
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1048
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1049
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1050
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1051
+Cihaz: ThinkPad
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1052
+Cihaz: Surface_Pro_9
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1053
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1054
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1055
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1056
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1057
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1058
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1059
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1060
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1061
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1062
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1063
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1064
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1065
+Cihaz: Raspberry_Pi_5
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1066
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1067
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1068
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1069
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1070
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1071
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1072
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1073
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1074
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1075
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1076
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1077
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1078
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1079
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1080
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1081
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1082
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1083
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1084
+Cihaz: Surface_Pro_9
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1085
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1086
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1087
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1088
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1089
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1090
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1091
+Cihaz: Surface_Pro_9
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1092
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1093
+Cihaz: Surface_Pro_9
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1094
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1095
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1096
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1097
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1098
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1099
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1100
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1101
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1102
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1103
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1104
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1105
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1106
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1107
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1108
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1109
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1110
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1111
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1112
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1113
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1114
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1115
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1116
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1117
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1118
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1119
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1120
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1121
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1122
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1123
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1124
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1125
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1126
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1127
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1128
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1129
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1130
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1131
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1132
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1133
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1134
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1135
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1136
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1137
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1138
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1139
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1140
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1141
+Cihaz: Surface_Pro_9
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1142
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1143
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1144
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1145
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1146
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1147
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1148
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1149
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1150
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1151
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1152
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1153
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1154
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1155
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1156
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1157
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1158
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1159
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1160
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1161
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1162
+Cihaz: ThinkPad
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1163
+Cihaz: Raspberry_Pi_5
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1164
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1165
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1166
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1167
+Cihaz: ThinkPad
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1168
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1169
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1170
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1171
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1172
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1173
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1174
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1175
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1176
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1177
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1178
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1179
+Cihaz: Dell_XPS
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1180
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1181
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1182
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1183
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1184
+Cihaz: MacBook_Air
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1185
+Cihaz: Dell_XPS
+OS: macOS_15
+Durum: Tamirde
+END_RECORD
+ID: 1186
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1187
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1188
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1189
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1190
+Cihaz: Surface_Pro_9
+OS: Fedora_43
+Durum: Aktif
+END_RECORD
+ID: 1191
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1192
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Kayip
+END_RECORD
+ID: 1193
+Cihaz: Dell_XPS
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1194
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1195
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Tamirde
+END_RECORD
+ID: 1196
+Cihaz: MacBook_Air
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1197
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Kayip
+END_RECORD
+ID: 1198
+Cihaz: Surface_Pro_9
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1199
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1200
+Cihaz: MacBook_Air
+OS: Ubuntu_24.04
+Durum: Aktif
+END_RECORD
+ID: 1201
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1202
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Tamirde
+END_RECORD
+ID: 1203
+Cihaz: ThinkPad
+OS: Ubuntu_24.04
+Durum: Tamirde
+END_RECORD
+ID: 1204
+Cihaz: MacBook_Air
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1205
+Cihaz: Raspberry_Pi_5
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
+ID: 1206
+Cihaz: Surface_Pro_9
+OS: macOS_15
+Durum: Aktif
+END_RECORD
+ID: 1207
+Cihaz: Raspberry_Pi_5
+OS: Windows_11
+Durum: Aktif
+END_RECORD
+ID: 1208
+Cihaz: Raspberry_Pi_5
+OS: Ubuntu_24.04
+Durum: Kayip
+END_RECORD
+ID: 1209
+Cihaz: Dell_XPS
+OS: Fedora_43
+Durum: Kayip
+END_RECORD
